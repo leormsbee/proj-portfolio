@@ -5,11 +5,13 @@ This repository contains assignments for Debug Academy's October 2015 Drupal Dev
 We will use github pull requests to submit solutions to assignments.
 
 Note: Be sure to use the following lessons as references for the steps listed below them:
+
 2. ###_command_line_basics.md
 3. ###_git_flow.md
 1. ###_git_commands.md
 
 Submitting a homework assignment involves a few steps:
+
 1. Fork the repository you are currently viewing on github
 3. Open the command line (git bash or the terminal)
 4. Go to the debugacademy folder
