@@ -63,5 +63,7 @@ You will need to:
 **Type your answer to question 4 right here.**
 
 5- Explain how you would create a new branch based off of develop. Include the command(s) you would use.
+**Type your answer to question 5 right here.**
 
 6- Explain how you would switch branches in plain english, including the command used.
+**Type your answer to question 6 right here.**
