@@ -21,7 +21,7 @@ Ashraf Abed would create a branch named: ```integration-002-1-aa```
 - A classmates' branches from homework assignment #1
 - Another classmates' branches from homework assignment #1
 
-**Note: if a window appears upon merging with a message like 'Merge remote-tracking branch...', press the 'escape' key, then type ':wq', then press Enter.**
+**Note: if a window appears upon merging with a message like `Merge remote-tracking branch...`, press the `escape` key, then type `:wq`, then press the `Enter` key.**
 
 There are a few steps that must be done for this question.  
 You will need to:
@@ -36,7 +36,7 @@ You will need to:
 - 'Fetch' from your classmates' repos
   - Downloads copies of all of their branches to your computer
 - Merge each branch, one by one, into your integration branch
-  - **Note: if a window appears upon merging with a message like 'Merge remote-tracking branch...', press the 'escape' key, then type ':wq', then press Enter.**
+  - **Note: if a window appears upon merging with a message like `Merge remote-tracking branch...`, press the `escape` key, then type `:wq`, then press the `Enter` key.**
   - Must be on the integration branch while merging
   - Must use branch names displayed when 'git fetch' is performed
     - Including the 'name/' portion of the branch name
@@ -44,13 +44,20 @@ You will need to:
 **Create a pull request from your integration branch**  
 
 2- Create an integration-rebased branch, whose history initially matches that of your integration branch. AKA: Create a branch named ```integration-rebased``` based off of your integration branch from question 1.  
-
-Rebase the new branch onto the debugacademy repo's 'develop' branch.  
-
-Submit a pull request for your integration-rebased branch.  
+- Rebase the new branch onto the debugacademy repo's 'develop' branch.  
+  - This will update your integration-rebased branch
+  - It will place the commits from your integration-rebased branch *after* the commits on the develop branch
+  - **Any time there is a conflict, it will stop rebasing and tell you to resolve the issue**
+  - **Conflicts are resolved the same way they were with merge conflicts**
+  - After resolving conflicts, `git add` the file(s), then type `git rebase --continue` to resume the rebase process
+- Submit a pull request for your integration-rebased branch.  
 
 3- Explain, in plain English, the solution to question 1. Include what we were doing, and how we did it. Commit your answer to this question in its own commit.  
 **Type your answer to question 3 right here.**
 
 4- Explain, in plain English, the solution to question 2. Include what we were doing, and how we did it. Commit your answer to this question in its own commit.  
 **Type your answer to question 4 right here.**
+
+5- Explain how you would create a new branch based off of develop. Include the command(s) you would use.
+
+6- Explain how you would switch branches in plain english, including the command used.
