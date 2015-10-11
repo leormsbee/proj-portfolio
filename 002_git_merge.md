@@ -52,6 +52,10 @@ You will need to:
   - After resolving conflicts, `git add` the file(s), then type `git rebase --continue` to resume the rebase process
 - Submit a pull request for your integration-rebased branch.  
 
+**Questions 3, 4, 5, and 6 should be on a branch of their own.**
+**The branch should be based off of develop.**
+**Submit a single pull request for the branch.**
+
 3- Explain, in plain English, the solution to question 1. Include what we were doing, and how we did it. Commit your answer to this question in its own commit.  
 **Type your answer to question 3 right here.**
 
