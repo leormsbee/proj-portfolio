@@ -39,6 +39,13 @@ Image: images/section-2-top-squiggle-border.jpg
 - Background image aligned at the top of the div
 - Background color's Hex code: #fdfdff
 
+You *can* use the same image for each block in this section.
+
+Items:
+"Collapsed" - images/purple-cause-prehover.png
+"Expanded" - images/purple-cause-hover.png
+Cause image: Use any image from google - does not need to be blurred.
+
 ----------
 Section 4
 ----------
