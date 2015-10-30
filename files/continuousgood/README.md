@@ -51,6 +51,8 @@ Section 4
 ----------
 Step 2
 
+Background Image: images/hands-bg.jpg
+
 ----------
 Section 5
 ----------
