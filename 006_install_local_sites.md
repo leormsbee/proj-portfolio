@@ -3,7 +3,7 @@ In this assignment, we will begin building our first clients Drupal websites.
 
 ## Answering questions
 For this assignment, you will be committing changes to:  
-- 006_build_w_drupal.md (the file you are reading)
+- 006_install_local_sites.md (the file you are reading)
 - Your (new) proj-ha repo
 - Your (new) proj-cg repo
 - Your (new) proj-php repo
@@ -18,7 +18,7 @@ Your commits should always be clear, concise explanations of what is being commi
 ** - [Topic]-[Assignment Number]-[Your initials]**  
 
 *For example, for this assignment:*  
-Ashraf Abed would create a branch named: ```ha-setup-006-aa```  
+Ashraf Abed would create a branch named: ```dev-setup-006-aa```  
 
 ### Download new site repos
 
