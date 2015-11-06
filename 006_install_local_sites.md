@@ -138,7 +138,13 @@ Paste it here:
 **Pull request #1:** Submit a pull request containing what you pasted in this file.
 
 #### HA Lighting repository
-Create a pull request containing the settings.php file you created in class  
+**Pull request #2:** Create a pull request containing the ha lighting settings.php file you created in class  
+- The pull request should be to the continuous good repository
+  - https://github.com/debugacademy/proj-ha
+- You'll need to fork the repository, then add your fork as a remote so you can push to it
 
 #### Continuous Good repository
-Create a pull request containing the settings.php file you created in class  
+**Pull request #3:** Create a pull request containing the continuous good settings.php file you created in class  
+- The pull request should be to the continuous good repository
+  - https://github.com/debugacademy/proj-cg
+- You'll need to fork the repository, then add your fork as a remote so you can push to it
