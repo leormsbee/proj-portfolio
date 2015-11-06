@@ -1,19 +1,33 @@
 # What is this?
-This folder contains symlinks to repositories we will be working on in class.  
+This folder contains symlinks to repositories we will be regularly accessing in class.  
 
-Symlinks can be thought of as shortcuts to other files or folders.  
-We will store symlinks to our many repositories in this folder, so that individuals in the class can all access them from the same place - via symlinks in their assignments repo.  
+Symlinks work like shortcuts to other files or folders.  
 
-## Creating a symlink
-```ln -s [where your repo is on your computer] [an alias (filename/foldername) agreed upon in class]```
+We will create symlinks in this folder which point to our repositories. This way, everyone in the class can access all of their repositories from one centralized location; this folder.
 
-## Symlinks to create
-Alias: halighting
-Shortcut to: HA Lighting Drupal repo
+## How to create a symlink
+Step 1: `cd` to where you want the symlink, or shortcut, to be placed  
+Step 2: Determine the path to the file from where you are to the file/folder you want a shortcut to  
+  - Example: `../001_git.md` is the relative path to my first homework assignment  
+  - Example: `~/Sites/haacademyvm` is the path to my HA repo  
+Step 3: Create the symlink using the following command:  
+- ```ln -s [path of file/folder] [alias]```  
+  - `[path of file/folder]`: This is the path you must type`The path to your repo on your computer`  
+  - `[alias]`: `what the symlink, or shortcut, will be named`  
 
-Alias: continuousgood
-Shortcut to: Continuous Good Drupal repo
+## Which symlinks to create
+- `[alias]`: vagrant  
+- `[path of file/folder]`: Path to your vagrant box repo  
+  - This is the folder you ran `vagrant up` in  
 
-Alias: php
-Shortcut to: folder pointed to by php.academyvm.dev
+- `[alias]`: halighting  
+- `[path of file/folder]`: Path to your HA Lighting Drupal repo  
 
+- `[alias]`: contgood  
+- `[path of file/folder]`: Path to your Continuous Good Drupal repo  
+
+- `[alias]`: php  
+- `[path of file/folder]`: Path to your PHP repo  
+
+- `[alias]`: lessons  
+- `[path of file/folder]`: Path to your da-lessons repo  

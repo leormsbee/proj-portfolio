@@ -122,3 +122,23 @@ Ashraf Abed would create a branch named: ```ha-setup-006-aa```
 
 ### Create symlinks to DA repos
 Follow the instructions in symlinks/README.md to create symlinks to each of the repos we use in class.
+
+### Submit your assignment
+You'll be submitting the following pull requests:  
+
+#### This file
+After following the instructions in symlinks/README.md:  
+- `cd` to your da-assignments repository  
+- `cd` to the symlinks folder inside of it  
+- Run `ls -la` in the symlinks folder  
+- Copy the information printed in the terminal  
+
+Paste it here:  
+
+**Pull request #1:** Submit a pull request containing what you pasted in this file.
+
+#### HA Lighting repository
+Create a pull request containing the settings.php file you created in class  
+
+#### Continuous Good repository
+Create a pull request containing the settings.php file you created in class  
