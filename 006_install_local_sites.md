@@ -139,7 +139,7 @@ Paste it here:
 
 #### HA Lighting repository
 **Pull request #2:** Create a pull request containing the ha lighting settings.php file you created in class  
-- The pull request should be to the continuous good repository
+- The pull request should be to the ha lighting repository
   - https://github.com/debugacademy/proj-ha
 - You'll need to fork the repository, then add your fork as a remote so you can push to it
 
