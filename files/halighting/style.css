@@ -1,11 +1,261 @@
-/** You can edit this entire document **/
-
 #wrapper {
   width: 100%;
-  min-width: 1454px;
+  max-width: 1454px;
+  margin: 0 auto;
 }
 .content {
-  width:100%;
+  width: 100%;
   max-width: 1008px;
   margin: 0 auto;
 }
+
+body {
+  margin: 0;
+}
+
+#bg-wrapper {
+  background-image: url("images/top_blue_horizontal_repeat.jpg");
+  background-repeat: repeat-x;
+}
+
+header {
+  width: 100%;
+  height: 676px;
+}
+
+/* TODO: vertically center divs inside of this div */
+#top-above-menu {
+  width: 965px;
+  height: 46px;
+  margin: 0 auto;
+  padding: 35px 0px;
+  position: relative;
+}
+
+#logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px; /* compensate for top padding of parent div */
+}
+
+#logo a {
+  width: 233px;
+  height: 32px;
+  background: url(images/logo.png) no-repeat;
+  display: block;
+}
+
+#top-contact-info {
+  float: right;
+}
+
+#top-social-div {
+  float: left;
+  margin-right: 30px;
+  margin-top: 6px;
+}
+
+#top-social-div li {
+  width: 34px;
+  height: 34px;
+  margin: 0px 7px;
+}
+
+#top-social-div a {
+  display: block;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+
+#top-social-div i {
+  color: #dddddd;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+}
+
+
+#top-phone-div {
+  float: right;
+  margin-top: 2px;
+}
+
+#top-phone-div p {
+  margin: 0 0 3px 0;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: small;
+  color: #ffcf4b;
+}
+
+#top-phone-div span {
+  font-family: Arial;
+  font-size: x-large;
+  letter-spacing: 2px;
+  color: #dddddd;
+}
+
+#menu-and-slides {
+  width: 1135px;
+  height: 560px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.1);
+}
+
+#main-menu {
+  width: 1113px; /* leave room for transparent background border */
+  height: 58px;
+  margin: 0 auto;
+  padding-top: 11px;
+  background-image: url(images/menu_bg.gif);
+  background-repeat: repeat-x;
+  background-origin: content-box;
+  text-align: center;
+}
+
+#main-menu ul {
+  display: inline-block;
+}
+
+/* Disgusting hacky way of getting separators... need better way */
+#main-menu li + li {
+  background: url(images/separator.gif) no-repeat center left;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+#main-menu li:first-child {
+  margin-right: 40px;
+}
+
+#main-menu li:last-child {
+  padding-right: 0px;
+}
+/* END disgusting hack */
+
+#main-menu a {
+  color: white;
+  line-height: 58px;
+  font-family: Arial;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#main-menu a:hover, #main-menu li:last-child a {
+  color: #ffcf4b;
+}
+
+#slideshow {
+  width: 1099px; /* leave room for transparent background border */
+  height: 466px;
+  margin: 0 auto;
+  background-image: url(images/first_slide.jpg);
+  background-repeat: no-repeat;
+  border: 7px solid white;
+}
+
+#welcome-section {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#welcome-section h2 {
+  margin: 50;x auto;
+  font-family: Arial;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#welcome-header-part1 {
+  color: #6b6b6b;
+}
+
+#welcome-header-part2 {
+  color: #6b6b6b;
+  font-weight: lighter;
+}
+
+#welcome-header-part3 {
+  color: #2762a6;
+}
+
+#welcome-section p {
+  margin: 0 auto 80px auto;
+  font-family: Arial;
+  line-height: 200%;
+}
+
+#company-services-section {
+  width: 100%;
+  height: 478px;
+  margin: 0 auto;
+  background-image: url(images/section_blue_bg.jpg);
+  background-repeat: repeat-x;
+}
+
+#company-services-blocks-bg {
+  width: 1137px;
+  height: 433px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.1);
+}
+
+#company-services-blocks {
+  background-color: white;
+  height: 415px;
+  width: 1119px;
+  margin: 0 auto;
+}
+
+.company-service-block {
+  background-image: url(images/block_top_bg.gif);
+  background-repeat: repeat-x;
+  width: 373px;
+  height: 415px;
+  float: left;
+  display: inline-block;
+}
+
+.company-service-block h3 {
+}
+
+.company-service-block h3, .company-service-block div, .company-service-block p {
+  margin: 30px 0 0 30px;
+}
+
+.company-service-block h3 {
+  color: #0d3c6a;
+  font-family: Arial;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+/* General repeated classes */
+
+.horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.horizontal-item {
+  float: left;
+  display: inline-block;
+}
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
