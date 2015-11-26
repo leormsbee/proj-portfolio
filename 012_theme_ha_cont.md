@@ -18,7 +18,7 @@ Your commits should always be clear, concise explanations of what is being commi
 ** - [Topic]-[Assignment Number]-[Your initials]**    
 
 *For example, for this assignment:*    
-Ashraf Abed would create a branch named: ```ha-theme-011-aa```  
+Ashraf Abed would create a branch named: ```ha-themept2-012-aa```  
 
 This work should be completed on your HA Lighting website.  
 
