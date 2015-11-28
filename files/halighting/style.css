@@ -1,33 +1,30 @@
-#wrapper {
+.full-width, .content-narrow, .content-wide {
   width: 100%;
-  max-width: 1454px;
   margin: 0 auto;
 }
-.content {
-  width: 100%;
-  max-width: 1008px;
-  margin: 0 auto;
+
+.content-narrow {
+  max-width: 960px;
+}
+
+.content-wide {
+  max-width: 1130px;
 }
 
 body {
   margin: 0;
+  font-family: Arial;
 }
 
-#bg-wrapper {
+header {
+  height: 676px;
   background-image: url("images/top_blue_horizontal_repeat.jpg");
   background-repeat: repeat-x;
 }
 
-header {
-  width: 100%;
-  height: 676px;
-}
-
 /* TODO: vertically center divs inside of this div */
 #top-above-menu {
-  width: 965px;
   height: 46px;
-  margin: 0 auto;
   padding: 35px 0px;
   position: relative;
 }
@@ -57,28 +54,20 @@ header {
 }
 
 #top-social-div li {
-  width: 34px;
-  height: 34px;
-  margin: 0px 7px;
+  margin: 0px 5px;
 }
 
 #top-social-div a {
-  display: block;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-}
-
-#top-social-div i {
-  color: #dddddd;
-  line-height: 30px;
   width: 30px;
   height: 30px;
-  border: 2px solid #dddddd;
   border-radius: 50%;
+  border: 2px solid #b3b3b3;
 }
 
+#top-social-div .fa {
+  line-height: 30px;
+  color: #b3b3b3;
+}
 
 #top-phone-div {
   float: right;
@@ -87,17 +76,13 @@ header {
 
 #top-phone-div p {
   margin: 0 0 3px 0;
-  text-transform: uppercase;
-  font-family: Arial;
-  font-size: small;
   color: #ffcf4b;
 }
 
 #top-phone-div span {
-  font-family: Arial;
   font-size: x-large;
   letter-spacing: 2px;
-  color: #dddddd;
+  color: #b4c1d2;
 }
 
 #menu-and-slides {
@@ -141,10 +126,7 @@ header {
 #main-menu a {
   color: white;
   line-height: 58px;
-  font-family: Arial;
-  font-weight: normal;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 3px;
 }
 
@@ -162,81 +144,187 @@ header {
 }
 
 #welcome-section {
-  max-width: 850px;
-  margin: 0 auto;
   text-align: center;
+  height: 370px;
 }
 
 #welcome-section h2 {
-  margin: 50;x auto;
-  font-family: Arial;
+  margin: 50 auto;
   font-size: 2em;
-  text-transform: uppercase;
 }
 
-#welcome-header-part1 {
+.welcome-color-1 {
   color: #6b6b6b;
 }
 
-#welcome-header-part2 {
-  color: #6b6b6b;
-  font-weight: lighter;
-}
-
-#welcome-header-part3 {
+.welcome-color-2 {
   color: #2762a6;
 }
 
 #welcome-section p {
   margin: 0 auto 80px auto;
-  font-family: Arial;
   line-height: 200%;
 }
 
 #company-services-section {
-  width: 100%;
   height: 478px;
-  margin: 0 auto;
-  background-image: url(images/section_blue_bg.jpg);
-  background-repeat: repeat-x;
+  background: url(images/section_blue_bg.jpg) repeat-x;
+  overflow: auto;
 }
 
 #company-services-blocks-bg {
-  width: 1137px;
-  height: 433px;
-  margin: 0 auto;
+  height: 436px;
   background-color: rgba(0,0,0,0.1);
+  margin-top: 21px;
+  text-align: center;
 }
 
-#company-services-blocks {
-  background-color: white;
+.company-services-block {
+  background: url(images/block_top_bg.gif) repeat-x, white;
+  width: 298px;
   height: 415px;
-  width: 1119px;
-  margin: 0 auto;
+  margin: 9px -3px 0 -2px;
+  padding: 0 35px;
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #f4f4f4;
 }
 
-.company-service-block {
-  background-image: url(images/block_top_bg.gif);
-  background-repeat: repeat-x;
-  width: 373px;
-  height: 415px;
-  float: left;
+.company-services-block h3 {
+  color: #0d3c6a;
+  font-size: x-large;
+  margin: 35px 0 25px;
+}
+
+.company-services-block-pic {
+  width: 305px;
+  height: 180px;
+  border: 1px solid #f4f4f4;
+}
+
+#company-services-block-1 .company-services-block-pic {
+  background: url(images/block_pic_1.jpg) center no-repeat, white;
+}
+#company-services-block-2 .company-services-block-pic {
+  background: url(images/block_pic_2.jpg) center no-repeat, white;
+}
+#company-services-block-3 .company-services-block-pic {
+  background: url(images/block_pic_3.jpg) center no-repeat, white;
+}
+
+.company-services-block p {
+  margin-top: 30px;
+  color: #8a9cb2;
+}
+
+#footer-contact {
+  height: 154px;
+  text-align: center;
+  line-height: 154px;
+}
+
+.footer-contact-item {
+  height: 75px;
+  display: inline-block;
+  line-height: 75px;
+  margin: 0 35px;
+}
+
+.footer-contact-item i {
+  color: #dbb761;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border: 2px solid #f4f4f4;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.footer-contact-item span {
+  color: #7b7b7b;
+  letter-spacing: 2px;
+}
+
+#footer-menu-bg {
+  height: 157px;
+  background-color: #0d1424;
+  line-height: 157px;
+}
+
+#footer-menu {
   display: inline-block;
 }
 
-.company-service-block h3 {
+#footer-menu li {
+  margin-right: 55px;
 }
 
-.company-service-block h3, .company-service-block div, .company-service-block p {
-  margin: 30px 0 0 30px;
+#footer-menu a {
+  color: white;
+  text-decoration: none;
 }
 
-.company-service-block h3 {
-  color: #0d3c6a;
-  font-family: Arial;
-  font-size: large;
-  text-transform: uppercase;
+#newsletter-div {
+  display: inline-block;
+  float: right;
+  margin-top: 58px;
 }
+
+#newsletter-div #newsletter-text {
+  float: left;
+  width: 140px;
+  line-height: 1em;
+  padding: 5px 0;
+}
+
+#newsletter-div span {
+  color: white;
+}
+
+#newsletter-div input {
+  height: 44px;
+  width: 210px;
+  font-family: 'FontAwesome' Arial;
+}
+
+#newsletter-div a {
+  float: right;
+  width: 66px;
+  height: 44px;
+  background: url(images/go_button.png) no-repeat;
+  margin-left: -4px;
+}
+
+#footer-copyright {
+  height: 101px;
+  background-color: #060c1c;
+  line-height: 101px;
+}
+
+#footer-copyright span {
+  color: #4c597c;
+}
+
+#bottom-social-div {
+  float: right;
+}
+
+#bottom-social-div a {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+#bottom-social-div a:hover {
+  background-color: #00acee;
+}
+
+#bottom-social-div .fa {
+  line-height: 45px;
+  color: white;
+}
+
 
 /* General repeated classes */
 
@@ -248,8 +336,12 @@ header {
 }
 
 .horizontal-item {
-  float: left;
   display: inline-block;
+}
+
+.link-button {
+  display: block;
+  text-align: center;
 }
 
 .hide-text {
@@ -258,4 +350,15 @@ header {
   overflow: hidden;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}  
+
+.font-small {
+  font-size: small;
+}
+
+.font-light {
+  font-weight: lighter;
+}
 
