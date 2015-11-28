@@ -260,8 +260,14 @@ header {
 }
 
 #footer-menu a {
+  display: block;
+  height: 153px;
   color: white;
   text-decoration: none;
+}
+
+#footer-menu a:hover {
+  border-bottom: 5px solid #2297f1;
 }
 
 #newsletter-div {
