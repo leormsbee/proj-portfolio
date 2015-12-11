@@ -71,56 +71,6 @@ About how long, rounded to the nearest half hour, did this task take you to comp
 
 Update your feature, and commit these additions in a new commit.  
   
-### Task - Create basic custom module  
-Create a module for HA Lighting. The module will eventually contain our custom code, as well as dependencies, ideally allowing us to 'rebuild the site' simply by enabling this module.  
-  
-The module should be placed in:  
-- sites/all/modules/custom/ha_core  
-  
-It should contain the files:  
-- ha_core.info  
-- ha_core.module  
-- ha_core.install  
-  
-The ```.info``` file should contain a minimum of the module's name, version (7.x-1.x), and a brief description.  
-  
-The ```.module``` file, initially, can simply contain the following:  
-```  
-<?php  
-```  
-Note: If the entire file is in PHP, without any gaps, it is encouraged to write the opening PHP tag ```<?php``` without the closing PHP tag ```?>```, as we're doing here.  
-  
-The ```.install``` file, initially, can simply contain the following:  
-```  
-<?php  
-```  
-Note: If the entire file is in PHP, without any gaps, it is encouraged to write the opening PHP tag ```<?php``` without the closing PHP tag ```?>```, as we're doing here.  
-  
-To test that your module was created successfully, you should be able to enable it using drush without any errors. Run ```drush en ha_core``` to install and enable your module.  
-  
-Commit this custom module to your codebase.  
-
-### Task - Make basic custom module useful  
-The task consists of making the following true:  
-
-When your module is enabled, the following automatically happen:  
-- ha_lighting theme should be enabled and set as the default theme  
-- ha_public_pages should be enabled  
-- ha_backend should be enabled, if it exists  
-- Core blocks are enabled/disabled and placed as desired  
-- Use drupal's variable_get and variable_set functions to initialize a variable named 'ha_backend_prod' to 0, if it was empty.  
-- Enables rules_ui, views_ui, and devel, *only if* the variable ha_backend_prod == 0. (Use variable_get to check the variable's value)  
-  
-This should all be done in a hook_enable function, placed in ha_core.install, using PHP.   
-1. Research how to create the hook_enable function (specifically, what parameters / arguments does it accept). This can be found in the Drupal 7 API.  
-2. Research how to programmatically enable a theme and make it default  
-3. Research how to use variable_get and variable_set  
-4. Research how to programmatically enable modules  
-  
-The answers to those questions should give you the information you need to create your update hooks.  
-
-About how long, rounded to the nearest half hour, did this task take you to complete? *Write your answer here.* 
-  
 ### Task - Module selection  
 Because different users have different roles, we will be creating a landing page per user. Research and select a module which allows us to redirect users to specific pages based on which role they are in.  
   
@@ -459,6 +409,9 @@ Again, you have finished creating a content type. Update your feature, and creat
 				- Developer  
   
 
+### This marks the end of part 1  
+You are expected to complete everything above this line on your own. As always, questions on slack are welcome. The below questions will be addressed in class.  
+
 ### Advanced - Create custom entity types  
 *This is an advanced task expected of senior developers, you are welcome to attempt it but it is not required.*  
   
@@ -474,6 +427,56 @@ Note
 		- Defaults to current time  
 
 Create this entity type in your ha_core custom module. You will likely need to add the entity type initialization code to both an install hook, and an update hook, because the module will likely have already been installed by the time this change is committed.  
+
+### Task - Create basic custom module  
+Create a module for HA Lighting. The module will eventually contain our custom code, as well as dependencies, ideally allowing us to 'rebuild the site' simply by enabling this module.  
+  
+The module should be placed in:  
+- sites/all/modules/custom/ha_core  
+  
+It should contain the files:  
+- ha_core.info  
+- ha_core.module  
+- ha_core.install  
+  
+The ```.info``` file should contain a minimum of the module's name, version (7.x-1.x), and a brief description.  
+  
+The ```.module``` file, initially, can simply contain the following:  
+```  
+<?php  
+```  
+Note: If the entire file is in PHP, without any gaps, it is encouraged to write the opening PHP tag ```<?php``` without the closing PHP tag ```?>```, as we're doing here.  
+  
+The ```.install``` file, initially, can simply contain the following:  
+```  
+<?php  
+```  
+Note: If the entire file is in PHP, without any gaps, it is encouraged to write the opening PHP tag ```<?php``` without the closing PHP tag ```?>```, as we're doing here.  
+  
+To test that your module was created successfully, you should be able to enable it using drush without any errors. Run ```drush en ha_core``` to install and enable your module.  
+  
+Commit this custom module to your codebase.  
+
+### Task - Make basic custom module useful  
+The task consists of making the following true:  
+
+When your module is enabled, the following automatically happen:  
+- ha_lighting theme should be enabled and set as the default theme  
+- ha_public_pages should be enabled  
+- ha_backend should be enabled, if it exists  
+- Core blocks are enabled/disabled and placed as desired  
+- Use drupal's variable_get and variable_set functions to initialize a variable named 'ha_backend_prod' to 0, if it was empty.  
+- Enables rules_ui, views_ui, and devel, *only if* the variable ha_backend_prod == 0. (Use variable_get to check the variable's value)  
+  
+This should all be done in a hook_enable function, placed in ha_core.install, using PHP.   
+1. Research how to create the hook_enable function (specifically, what parameters / arguments does it accept). This can be found in the Drupal 7 API.  
+2. Research how to programmatically enable a theme and make it default  
+3. Research how to use variable_get and variable_set  
+4. Research how to programmatically enable modules  
+  
+The answers to those questions should give you the information you need to create your update hooks.  
+
+About how long, rounded to the nearest half hour, did this task take you to complete? *Write your answer here.*  
   
 ### Task: Patch field permissions module  
 There is a patch on drupal.org, in the field_permissions issue queue, which improves 'Features' integration for the field permissions module.  
