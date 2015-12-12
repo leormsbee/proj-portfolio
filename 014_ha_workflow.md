@@ -59,14 +59,14 @@ Note the time you start working on this task.
 - panels  
 	- Allows creating pages and placing content on them  
 	- We will be using this to create the homepage, and many other pages  
-- rules  
-	- Comes with the rules_ui module  
-	- *You must enable rules_ui to see the UI for the rules module.*  
+- rules_admin  
+	- Comes with the rules module  
+	- *You must enable rules_admin to see the UI for the rules module.*  
 	- Provides a UI for performing much of what would usually be done by writing custom code  
 - devel  
 	- Great module for debugging issues on your drupal website. Should not be enabled on prod.  
 
-*Add all of these *EXCEPT* views_ui, rules_ui, and devel as dependencies to your ha_backend feature.*  
+*Add all of these *EXCEPT* views_ui, rules_admin, and devel as dependencies to your ha_backend feature.*  
 About how long, rounded to the nearest half hour, did this task take you to complete? *Write your answer here.*  
 
 Update your feature, and commit these additions in a new commit.  
