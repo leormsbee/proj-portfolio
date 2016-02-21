@@ -1,0 +1,10 @@
+/** You can edit this entire document **/
+
+.content-wide {
+  width: 100%;
+}
+.content-narrow {
+  width:100%;
+  max-width: 1454px;
+  margin: 0 auto;
+}
