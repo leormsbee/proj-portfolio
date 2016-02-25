@@ -1,4 +1,4 @@
-# Intro to Git
+# Intro to HTML & CSS
 In this assignment, we will code our first design.
 
 ## Answering questions
