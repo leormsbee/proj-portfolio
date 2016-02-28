@@ -43,7 +43,7 @@ Ashraf Abed would create a branch named: ```dev-setup-006-aa```
 - Github repo: https://github.com/debugacademy/public_html
 - Clone it into your sites/php folder
   - cd to your sites/php folder
-  - Then run: git clone https://github.com/debugacademy/proj-debugacademy.git
+  - Then run: git clone https://github.com/debugacademy/public_html.git
 
 ### Create index.php
 - Open the folder debugacademy/sites/dev-2
