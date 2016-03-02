@@ -113,7 +113,17 @@ After completing all of the above steps, do this:
 - Run `ls -la`
 - Copy the information printed in the terminal 
 
-Paste it here:  
+Paste it here: 
+Debras-MacBook-Air:dev-2 debramoriarty$ ls -la
+total 8
+drwxrwxrwx   6 debramoriarty  staff   204 Mar  1 23:00 .
+drwxrwxrwx   7 debramoriarty  staff   238 Feb 14 11:24 ..
+-rwxrwxrwx   1 debramoriarty  staff   444 Mar  1 23:00 index.php
+drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:50 proj-arcs
+drwxrwxrwx  33 debramoriarty  staff  1122 Mar  1 22:54 proj-challies
+drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:57 proj-debugacademy
+Debras-MacBook-Air:dev-2 debramoriarty$ 
+
 
 Save this file, then stage (git add) and commit your changes.  
 
@@ -123,15 +133,42 @@ Then:
 - Run `ls -la`
 - Copy the information printed in the terminal  
 
-Paste it here:  Debras-MacBook-Air:dev-2 debramoriarty$ ls -la
-total 8
-drwxrwxrwx   6 debramoriarty  staff   204 Mar  1 23:00 .
-drwxrwxrwx   7 debramoriarty  staff   238 Feb 14 11:24 ..
--rwxrwxrwx   1 debramoriarty  staff   444 Mar  1 23:00 index.php
-drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:50 proj-arcs
-drwxrwxrwx  33 debramoriarty  staff  1122 Mar  1 22:54 proj-challies
-drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:57 proj-debugacademy
-Debras-MacBook-Air:dev-2 debramoriarty$ 
+Paste it here:  
+Debras-MacBook-Air:dev-2 debramoriarty$ cd proj-arcs/
+Debras-MacBook-Air:proj-arcs debramoriarty$ ls -la
+total 520
+drwxrwxrwx  31 debramoriarty  staff    1054 Mar  1 22:50 .
+drwxrwxrwx   6 debramoriarty  staff     204 Mar  1 23:00 ..
+drwxrwxrwx  13 debramoriarty  staff     442 Mar  1 22:50 .git
+-rwxrwxrwx   1 debramoriarty  staff     174 Mar  1 22:50 .gitignore
+-rwxrwxrwx   1 debramoriarty  staff    5969 Mar  1 22:50 .htaccess
+-rwxrwxrwx   1 debramoriarty  staff  104070 Mar  1 22:50 CHANGELOG.txt
+-rwxrwxrwx   1 debramoriarty  staff    1481 Mar  1 22:50 COPYRIGHT.txt
+-rwxrwxrwx   1 debramoriarty  staff    1717 Mar  1 22:50 INSTALL.mysql.txt
+-rwxrwxrwx   1 debramoriarty  staff    1874 Mar  1 22:50 INSTALL.pgsql.txt
+-rwxrwxrwx   1 debramoriarty  staff    1298 Mar  1 22:50 INSTALL.sqlite.txt
+-rwxrwxrwx   1 debramoriarty  staff   17995 Mar  1 22:50 INSTALL.txt
+-rwxrwxrwx   1 debramoriarty  staff   18092 Mar  1 22:50 LICENSE.txt
+-rwxrwxrwx   1 debramoriarty  staff    8681 Mar  1 22:50 MAINTAINERS.txt
+-rwxrwxrwx   1 debramoriarty  staff    5382 Mar  1 22:50 README.txt
+-rwxrwxrwx   1 debramoriarty  staff   10123 Mar  1 22:50 UPGRADE.txt
+-rwxrwxrwx   1 debramoriarty  staff    6604 Mar  1 22:50 authorize.php
+-rwxrwxrwx   1 debramoriarty  staff    1794 Mar  1 22:50 chmod.sh
+-rwxrwxrwx   1 debramoriarty  staff     720 Mar  1 22:50 cron.php
+drwxrwxrwx  49 debramoriarty  staff    1666 Mar  1 22:50 includes
+-rwxrwxrwx   1 debramoriarty  staff     529 Mar  1 22:50 index.php
+-rwxrwxrwx   1 debramoriarty  staff     703 Mar  1 22:50 install.php
+drwxrwxrwx  72 debramoriarty  staff    2448 Mar  1 22:50 misc
+drwxrwxrwx  43 debramoriarty  staff    1462 Mar  1 22:50 modules
+drwxrwxrwx   6 debramoriarty  staff     204 Mar  1 22:50 profiles
+-rwxrwxrwx   1 debramoriarty  staff    1479 Mar  1 22:50 robots.txt
+drwxrwxrwx  13 debramoriarty  staff     442 Mar  1 22:50 scripts
+drwxrwxrwx   6 debramoriarty  staff     204 Mar  1 22:50 sites
+drwxrwxrwx   8 debramoriarty  staff     272 Mar  1 22:50 themes
+-rwxrwxrwx   1 debramoriarty  staff   19986 Mar  1 22:50 update.php
+-rwxrwxrwx   1 debramoriarty  staff    2200 Mar  1 22:50 web.config
+-rwxrwxrwx   1 debramoriarty  staff     417 Mar  1 22:50 xmlrpc.php
+Debras-MacBook-Air:proj-arcs debramoriarty$ 
 
 Save this file, then stage (git add) and commit your changes.  
 
