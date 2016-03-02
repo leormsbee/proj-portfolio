@@ -123,7 +123,15 @@ Then:
 - Run `ls -la`
 - Copy the information printed in the terminal  
 
-Paste it here:  
+Paste it here:  Debras-MacBook-Air:dev-2 debramoriarty$ ls -la
+total 8
+drwxrwxrwx   6 debramoriarty  staff   204 Mar  1 23:00 .
+drwxrwxrwx   7 debramoriarty  staff   238 Feb 14 11:24 ..
+-rwxrwxrwx   1 debramoriarty  staff   444 Mar  1 23:00 index.php
+drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:50 proj-arcs
+drwxrwxrwx  33 debramoriarty  staff  1122 Mar  1 22:54 proj-challies
+drwxrwxrwx  31 debramoriarty  staff  1054 Mar  1 22:57 proj-debugacademy
+Debras-MacBook-Air:dev-2 debramoriarty$ 
 
 Save this file, then stage (git add) and commit your changes.  
 
