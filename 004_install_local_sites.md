@@ -179,6 +179,16 @@ Then:
 - Copy the information printed in the terminal
 
 Paste it here:  
+Debras-MacBook-Air:default debramoriarty$ ls -la
+total 112
+dr-xr-xr-x  6 debramoriarty  staff    204 Mar  1 23:43 .
+drwxrwxrwx  6 debramoriarty  staff    204 Mar  1 22:57 ..
+-rwxrwxrwx  1 debramoriarty  staff    640 Mar  1 22:57 default.settings.local.php
+-rwxrwxrwx  1 debramoriarty  staff  24553 Mar  1 22:57 default.settings.php
+drwxrwxr-x  4 debramoriarty  staff    136 Mar  1 23:44 files
+-r-xr-xr-x  1 debramoriarty  staff  24861 Mar  1 23:43 settings.php
+Debras-MacBook-Air:default debramoriarty$ 
+
 
 Save this file, then stage (git add) and commit your changes.  
 
