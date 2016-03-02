@@ -23,6 +23,7 @@ Ashraf Abed would create a branch named: ```arcs-006-aa```
 
 ### Question 1
 Download the latest stable Drupal 7 versions of the following modules:  
+- `admin_menu`: drupal.org/project/admin_menu  
 - `features`: drupal.org/project/features  
 - `views`: drupal.org/project/views  
 - `views_slideshow`: www.drupal.org/project/views_slideshow
