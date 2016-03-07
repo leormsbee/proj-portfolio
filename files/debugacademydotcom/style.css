@@ -4,36 +4,60 @@
   width: 100%;
 }
 .content-narrow {
-  width: 100%;
-  max-width: 1145px;
+  width: 1145px;
   margin: 0 auto;
 }
 
 /** section below is css for header and aside section **/
-.li-nav-div {
-	float: left;
-	width: 945px;
-	margin-left: 0px;
-	padding-left: 0px;
-	margin-top: 0px;
-
+header {
+	height: 126px;
+	background-color: #000;
 }
-.limenu {
+header h1 {
+	background-image: url('images/da-logo.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height:111px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent:100%;
+	float:left;
+	margin: 0;
+}
+header nav {
+	float:right;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+header nav ul li {
 	color: white;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 13px;
+	margin-right: 13px;
 	list-style-type: none;
 	display: inline-block;
 	display: horizontal;
+	text-transform: uppercase;
 }
-
+header nav ul li.login a {
+	background-image: url('images/login-orange-button.gif');
+    background-repeat: no-repeat;
+    width: 113px;
+    height: 39px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent:100%;
+	position: absolute;
+	top:0;
+	right: 40px;
+	padding:0;
+	margin:0;
+    border-radius: 6px;
+}
 .lilinks5 {
 	list-style-type: none;
-}
-
-.header-nav-height-background-color {
-	height: 126px;
-	background-color: black;
 }
 
 .login-button-position {
@@ -51,6 +75,9 @@ header nav a {
 	text-decoration: none;
     line-height: 126px;
     display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+
 }
 
 header nav a:hover {
@@ -61,48 +88,58 @@ header nav a:hover {
 }
 
 /** section below is for 1st section **/
-
-.top-main-background-image {
-	background-image: url(/Users/debramoriarty/desktop/debugacademy/da-assignments/files/debugacademydotcom/images/main-image.png);
+.top-main h2 {
+	position: absolute;
+	top:40px;
+	text-align: center;
 	width: 100%;
-	height: 100%;
-  max-width: 1145px;
-  margin: 0 auto;
+	color: #fff;
+	
+}
+.top-main {
+  background-image: url(images/main-image.png);
   background-repeat: no-repeat;
+  height: 591px;
+  position: relative;
 }
 
+.top-main .block {
+	width: 250px;
+	color: white;
+	background: rgba(128, 128, 128, 0.5);
+	display: inline-block;
+	text-align: left;
+/*	margin-top:440px;*/
+}
+.block-group {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	bottom: -46px;
+}
 .students-top-main-1
  {
- 	float: left;
- 	/* border is just for development */
-	border: dashed;
-	opacity: 0.6;
-	width: 250px;
-	margin-left: 250px;
-	margin-top: 440px;
-	color: white;
+/* 	float: left;
+	margin-left: 250px;*/
+
 }
 
 .students-top-main-2 {
-	float: right;
-	/* border is just for development */
-	border: dashed;
-	opacity: 0.6;
-	width: 250px;
+/*	float: right;
 	margin-left: 25px;
-	margin-top:440px;
 	margin-right: 250px;
-	color: white;
+*/
 }
 
 .apply-now-button {
-	background-image: url(/Users/debramoriarty/desktop/debugacademy/da-assignments/files/debugacademydotcom/images/apply-now-button.png);
+	background-image: url(images/apply-now-button.png);
 	height: 50px;
 	width: 250px;
 }
 
 .hire-class-button {
-	background-image: url(/Users/debramoriarty/desktop/debugacademy/da-assignments/files/debugacademydotcom/images/hire-class-button.png);
+	background-image: url(images/hire-class-button.png);
 	height: 50px;
 	width: 250px;
 }
@@ -112,7 +149,7 @@ header nav a:hover {
 	float: left;
 }
 
-.top-main-background-image-text
+.top-main h2 {
 	{
 		color: white;
 		text-align: center;
