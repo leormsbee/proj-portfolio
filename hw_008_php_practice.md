@@ -23,7 +23,7 @@ Ashraf Abed would create a branch named: ```php-008-aa```
   - First, ```cd``` into the existing folder: sites/php/  
   - Then git clone the repository: ```git clone https://github.com/debugacademy/public_html.git ./```  
 
-Complete the following tasks within the file sites/php/ha_008.php, using the PHP language. *To test any PHP changes you make, you must visit the file at the URL: http://php.academyvm.dev/hw_008.php *  
+Complete the following tasks within the file sites/php/ha_008.php, using the PHP language. *To test any PHP changes you make, you must visit the file at the URL: http://php.academyvm.dev/public_html/hw_008.php *  
 1- Create a variable called ‘my_name’ by setting it equal to a string with your first name.  
 
 2- Print the text "I am (your name)", using the $my_name variable from question 1 to print your name.  
