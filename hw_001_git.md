@@ -15,7 +15,7 @@ Your commits should always be clear, concise explanations of what is being commi
 *[Topic]-[Assignment Number]-[Question Number]-[Your initials]*
 
 *For example, for question 1:*
-Ashraf Abed would create a branch named: ```git-002-1-aa```
+Ashraf Abed would create a branch named: ```git-001-1-aa```
 
 ### Question 1
 Enter your name after this colon: 
