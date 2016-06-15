@@ -24,9 +24,9 @@ Malik Kotob would create a branch named: ```htmlcg-003-1-mk```
 *Write your answer here*
 
 Open the continuousgood folder. It contains several files that will be necessary for working on this assignment:
-- homepage.html: this is the html file you will be committing to.
+- homepage.html: this is the html file you will be you modifying and committing changes from.
 - continuousgood.jpg: this is the image of the continuous good homepage design that you will base your html off of.
-- images: this is a folder with images you will need as you write the html for the homepage design.
+- images: this is a folder with images you will need as you write the html (and, later, the CSS) for the homepage design.
 - README.md: this file contains a breakdown of the different sections of the homepage. Use it as a guide for completing the assignment.
 
 3- Code the continuous good homepage's HTML for the continuousgood.jpg image in the continuousgood folder. (Note: we will code the corresponding CSS in a future assignment, so it is important that you complete this assignment to the best of your ability)
