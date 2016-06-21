@@ -1,10 +1,9 @@
 /** You can edit this entire document **/
 
-#wrapper {
+.content-wide {
   width: 100%;
-  min-width: 1454px;
 }
-.content {
+.content-narrow {
   width:100%;
   max-width: 1008px;
   margin: 0 auto;
