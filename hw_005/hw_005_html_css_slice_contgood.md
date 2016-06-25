@@ -15,21 +15,26 @@ For this assignment, you will be committing changes to:
 Your commits should always be clear, concise explanations of what is being committed. They should be granular and easy to review.
 
 ## Questions
-**Create a branch per question, each based off of the master branch, using the following convention:**  
+**Create a branch per question, *the first of which based off of the master branch, and the subsequent based off of the previous question's branch*, using the following convention:**  
 ** - [Topic]-[Assignment Number]-[Question Number]-[Your initials]**  
 
 *For example, for question 1:*
-Malik Kotob would create a branch named: ```csscg-005-1-mk```
+Malik Kotob would create a branch based off of master named: ```csscg-005-1-mk```
 
-1- Write the name of the section you were assigned to code in class here (Use the README.md file under the continuous good folder if you can't remember the name):
+*For example, for question 2:*
+Malik Kotob would create a branch based off of ```csscg-005-1-mk``` named: ```csscg-005-2-mk```
 
-2- Code the CSS of the section you were assigned to in continuousgood/style.css to accompany the HTML for that section in continuousgood/homepage.html. You may need to modify the HTML to make your section work - please commit those changes as well. Look at the README.md file in the continuousgood folder as a guide for completing this part of the assignment. Commit often, clearly, and concisely.
+1- Write the names of your group members:
+
+2- Write the name of the section(s) you will be implementing yourself here (Use the README.md file under the continuous good folder if you can't remember the name):
+
+3- Code the CSS of the section you were assigned to by modifying continuousgood/style.css and continuousgood/homepage.html. You will likely need to modify the HTML to complete your section(s), at a minimum by adding class names throughout. Please commit your HTML changes as well. Look at the README.md file in the continuousgood folder as a guide for completing this part of the assignment. Commit often, clearly, and concisely.
 
 ## Submitting your assignment
-Up until this point, you should have two branches of work.
+Up until this point, you should have three branches of work.
 
 ### Step 1
-Push both branches to your fork of the da-assignments repository (e.g. git push <remote-name> csscg-005-2-mk).
+Push your branches to your fork of the da-assignments repository (e.g. git push <remote-name> csscg-005-2-mk).
 
 ### Step 2
 Create a pull request for the branch for question 2 only.
