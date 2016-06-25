@@ -1,11 +1,11 @@
 # Image to HTML and CSS
-In this assignment, we will continue our work on coding the design for Continuous Good. In hw3, each student submitted an HTML-only version of the design. We will now begin coding the CSS to accompany the HTML. To ensure we all are starting from the same point, one hw3 submission was selected and can be found in the hw_004 folder at continuousgood/homepage.html.
+In this assignment, we will continue our work on coding the design for Continuous Good. In hw3, each student submitted an HTML-only version of the design. We will now begin coding the CSS to accompany the HTML. To ensure we all are starting from the same point, one hw3 submission was selected and can be found in the hw_005 folder at continuousgood/homepage.html.
 
 > Continuous Good is a web application that aims to solve the problem of wanting to give charitable donations to so many different causes, and not being able to decide which one(s) to donate to. The goal is to subscribe to causes and organizations, to set a monthly amount to donate, and for the website to handle the rest. Each month, you will receive an email informing you of how that month's donation will be helping people.
 
 ## Answering questions
 For this assignment, you will be committing changes to:
-- hw_004_html_css_slice_contgood.md (the file you are reading)
+- hw_005_html_css_slice_contgood.md (the file you are reading)
 - continuousgood/homepage.html
 - continuousgood/style.css
 
@@ -19,7 +19,7 @@ Your commits should always be clear, concise explanations of what is being commi
 ** - [Topic]-[Assignment Number]-[Question Number]-[Your initials]**  
 
 *For example, for question 1:*
-Malik Kotob would create a branch named: ```csscg-004-1-mk```
+Malik Kotob would create a branch named: ```csscg-005-1-mk```
 
 1- Write the name of the section you were assigned to code in class here (Use the README.md file under the continuous good folder if you can't remember the name):
 
@@ -29,7 +29,7 @@ Malik Kotob would create a branch named: ```csscg-004-1-mk```
 Up until this point, you should have two branches of work.
 
 ### Step 1
-Push both branches to your fork of the da-assignments repository (e.g. git push <remote-name> csscg-004-2-mk).
+Push both branches to your fork of the da-assignments repository (e.g. git push <remote-name> csscg-005-2-mk).
 
 ### Step 2
 Create a pull request for the branch for question 2 only.
