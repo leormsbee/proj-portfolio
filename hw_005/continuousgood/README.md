@@ -1,10 +1,11 @@
-Open the continuousgood.jpg file. It is an image of the homepage design for the Continuous Good site. Looking at the design at a high-level, we can split it up into different sections. The logo and the menu together make up one section, known as the header. The section containing the main background image in this design can be referred to as the 'hero'. We'll refer to the remaining sections as Section 1, Section 2, etc, all the way up to the Footer.
+Open the continuousgood.jpg file. It is an image of the homepage design for the Continuous Good site. Looking at the design at a high-level, we can split it up into different sections. The logo and the menu together make up one section, known as the header. The section containing the main background image in this design can be referred to as the 'hero'. We'll refer to the remaining sections as Section 1, Section 2, etc, all the way down to the Footer.   
 
 ----------
 Header
 ----------
 Continuous Good logo on left
 - image for logo can be found at images/header.jpg
+- Can alternatively place <h1>Site Name</h2> in HTML, then hide text + use logo image as bcakground in CSS
 
 Menu to the right
 - The links' text color should be: #40a2c9
@@ -16,9 +17,10 @@ Menu to the right
 Hero
 ----------
 Main image
-- images/Head-StockPhoto.jpg
+- images/Header-StockPhoto.jpg
 
 Dummy text on top of main image
+- Do not spend a lot of time trying to match the font. Different font face is OK.
 
 Give Forward button on top of main image
 - images/button-givefwd.png
@@ -33,9 +35,9 @@ Background image for entire section: images/lightgray-bg.gif
 - Background image aligned at the bottom of the div
 - Background color for entire section: #ffffff
 
-Background image for the 3 large circles: images/circle-section1.png  
+Same background image for each of the 3 large circles: images/circle-section1.png  
 
-Inner-circle images:  
+Inner-circle images placed on top of background image for large circles. There are multiple correct ways of doing this.:  
 - images/circle-icon-check.jpg
 - images/circle-icon-cal.jpg
 - images/circle-icon-heart.jpg
