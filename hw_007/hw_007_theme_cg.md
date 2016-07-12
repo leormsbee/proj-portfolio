@@ -1,10 +1,10 @@
-# Create theme for American Relief Coalition for Syria (ARCS)
-In this assignment, we will create a Drupal theme for ARCS.
+# Create theme for Continuous Good (CG)
+In this assignment, we will create a Drupal theme for CG.
 
 ## Answering questions
 For this assignment, you will be committing changes to:
-- classwork_001_theme_arcs.md (the file you are reading)
-- Your proj-arcs repository
+- hw_007_theme_cg.md (the file you are reading)
+- Your proj-cg repository
 
 **You CAN use lessons provided by the class as well as google to answer the questions, but all answers must be your own work**  
 
@@ -13,13 +13,12 @@ Your commits should always be clear, concise explanations of what is being commi
 
 ## Questions
 **Create a branch based off of the master branch using the following convention:**  
-** -[Topic]-cw-[Assignment Number]-[Your initials]**  
-(cw stands for classwork)  
+** -[Topic]-[Assignment Number]-[Your initials]**
 
 *For example, for this assignment:*  
-Ashraf Abed would create a branch named: ```arcs-theme-cw-001-aa```  
+Ashraf Abed would create a branch named: ```cg-theme-007-aa```  
 
-This work should be completed on your local ARCS website.  
+This work should be completed on your local CG website.  
 
 1- Download and install the Zen theme
   - It should reside in sites/all/themes
@@ -34,7 +33,7 @@ This work should be completed on your local ARCS website.
 3- Open the Drupal.org instructions for creating a subtheme
 https://www.drupal.org/node/225125
 
-4- Create a subtheme named: ARCS Theme (arcs_theme)  
+4- Create a subtheme named: CG Theme (cg_theme)  
   - Use the STARTERKIT provided by Zen  
   - *Commit this subtheme*  
 
@@ -45,4 +44,4 @@ https://www.drupal.org/node/225125
   - Ensure you place them in the right folder. There is only 1 location they will work from  
   - *Commit these files*
 
-7- Time permitting, begin styling the ARCS theme in class.
+7- Time permitting, begin styling the CG theme in class.
