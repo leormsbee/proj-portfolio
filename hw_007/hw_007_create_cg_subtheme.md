@@ -55,5 +55,6 @@ https://www.drupal.org/node/225125
 7- Make a noticeable CSS change to confirm your subtheme is working
   - For example, make the background color red: ```body { background-color: red; }```
   - Add that change to: 
-    - If SASS already set up: sass/components/_misc.scss (then compile the sass)
     - If SASS not yet set up: css/components/misc.css
+    - If SASS already set up: sass/components/_misc.scss (then compile the sass)
+      - To compile SASS, cd to subtheme's root folder then run ```bundle exec compass compile```
