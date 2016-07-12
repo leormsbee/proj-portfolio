@@ -58,3 +58,5 @@ https://www.drupal.org/node/225125
     - If SASS not yet set up: css/components/misc.css
     - If SASS already set up: sass/components/_misc.scss (then compile the sass)
       - To compile SASS, cd to subtheme's root folder then run ```bundle exec compass compile```
+
+8- Complete part 2 of assignment 7. It can be found in the same hw_007 folder.
