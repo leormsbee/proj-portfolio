@@ -20,26 +20,28 @@ Ashraf Abed would create a branch named: ```cg-theme-007-aa```
 
 This work should be completed on your local CG website.  
 
-1- Download and install the Zen theme
-  - It should reside in sites/all/themes
+1- Download and install the 7.x-5.6 version of the Zen theme
+  - It should reside in sites/all/themes/contrib
   - Using drush, you can enable it with the ```drush en``` command, similar to modules
   - Or, as admin, click 'Appearance' and enable using the UI
 
 2- Read the README from the Zen theme
   - Every base theme is different, so you must read the documentation in the Zen theme before starting.
-  - The first file to read is README-first.md
+  - The first file to read is README-first.txt
   - Zen has very thorough and valuable documentation
 
 3- Open the Drupal.org instructions for creating a subtheme
 https://www.drupal.org/node/225125
 
 4- Create a subtheme named: CG Theme (cg_theme)  
-  - Use the STARTERKIT provided by Zen  
+  - Use the STARTERKIT provided by Zen
+  - Ensure the word STARTERKIT is replaced by your theme's machine name everywhere in all files within your subtheme
+  - Folder and filenames must also be updated to replace STARTERKIT with your theme's name
   - *Commit this subtheme*  
 
 5- Enable your subtheme, then set it as your default theme  
 
-6- Copy the footer and page.tpl.php files to your subtheme
+6- Copy the region--footer and page.tpl.php files to your subtheme
   - You will need to clear cache for these to work
   - Ensure you place them in the right folder. There is only 1 location they will work from  
   - *Commit these files*
