@@ -40,16 +40,20 @@ This work should be completed on your local CG website.
 5- Enable the Backup and Migrate module (either from the user interface or via drush)
   - Clear the cache (`drush cc all`)
   - Go to admin/config/system/backup_migrate
-  - <Insert restore instructions>
+  - Click on the "Restore" tab
+  - Click "Choose File" under "Upload a Backup File" and select the cg-backup.mysql.gz file in this assignment's folder.
+  - Click "Restore Now" at the bottom.
+
+6- Download and enable the Features module (Do NOT commit this module, it has been committed into the debugacademy master branch).
 
 ### Review content types for familiarity
-6- Go to admin > structure > Content Types:
+7- Go to admin > structure > Content Types:
   - Review the fields on the Organization and Cause content types
 
 ### Exporting content types to code
 NOTE: Please refer to lecture on config in code for info on generating features (https://github.com/debugacademy/course-drupal/blob/master/055_config_in_code.md) for a good guide to supplement steps 7 and 8.
 
-7- Create cg_backend feature to export content types to code:
+8- Create cg_backend feature to export content types to code:
   - Go to admin > structure > features, click Create new feature
   - Give the feature a title of CG Backend
   - Select everything needed to replicate the organization and cause content types
@@ -57,7 +61,7 @@ NOTE: Please refer to lecture on config in code for info on generating features 
   - <Insert module generation instructions>
   - Commit the cg_backend feature.
 
-8- Create cg_common_fields feature to export field bases to code:
+9- Create cg_common_fields feature to export field bases to code:
   - Create a new feature titled CG Common Fields
   - Select everything needed to replicate the organization and cause content types
   - This time, uncheck everything EXCEPT for the field bases
@@ -65,4 +69,4 @@ NOTE: Please refer to lecture on config in code for info on generating features 
   - Commit the cg_common_fields feature.
 
 ### Submit a pull request
-9 - Push your branch up to your Github fork for proj-cg and create a pull request.
+10 - Push your branch up to your Github fork for proj-cg and create a pull request.
