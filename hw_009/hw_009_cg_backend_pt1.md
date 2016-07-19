@@ -30,7 +30,7 @@ This work should be completed on your local CG website.
 
 3- Add your fork as a remote in your proj-cg repo within dev-2 (this should be done within your VM at /var/www/dev-2/proj-cg)
   - If you have not already created a fork for the proj-cg repo in github, do so now.
-  - `git remote add <nickname for your fork> <address for your fork>
+  - `git remote add <nickname for your fork> <address for your fork>`
 
 4- Rename origin remote to debugacademy:
   - `git remote rename origin debugacademy`
@@ -58,7 +58,7 @@ This work should be completed on your local CG website.
   - Review the fields on the Organization and Cause content types
 
 ### Exporting content types to code
-NOTE: Please refer to lecture on config in code for info on generating features (https://github.com/debugacademy/course-drupal/blob/master/055_config_in_code.md) for a good guide to supplement steps 7 and 8.
+NOTE: Please refer to lecture on config in code for info on generating features (https://github.com/debugacademy/course-drupal/blob/master/055_config_in_code.md) for a good guide to supplement steps 10 and 11.
 
 10- In dev-2, create cg_common_fields feature to export field bases to code:
   - Go to admin > structure > features, click Create new feature
@@ -87,7 +87,7 @@ NOTE: Please refer to lecture on config in code for info on generating features 
 13- We will now "stage" your changes so that we can test them.
   - cd into `/var/www/stage-2/proj-cg`
   - `git fetch --all`
-  - `git checkout -b <your branch name from step 12> <nickname for your fork from step 3>/<your branch name from step 12>
+  - `git checkout -b <your branch name from step 12> <nickname for your fork from step 3>/<your branch name from step 12>`
 
 14- Test your features:
   - `drush en cg_common_fields`

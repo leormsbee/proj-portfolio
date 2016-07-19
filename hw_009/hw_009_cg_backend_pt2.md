@@ -34,6 +34,7 @@ This work should be completed on your local CG website.
 3- Tell Drupal about the module:
   - Create a new file titled cg_main.info inside of the cg_main folder
   - Add the following to the .info file:
+
   ```
   name = Continuous Good Main
   description = For custom CG code and updates
