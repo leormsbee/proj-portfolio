@@ -25,7 +25,7 @@ This work should be completed on your local CG website.
 
 ### Creating a custom module
 2- Create a module titled cg_main:
-  - Create a folder with the name cg_main inside of sites/all/custom
+  - Create a folder with the name cg_main inside of sites/all/modules/custom
   - Create a new file titled cg_main.module inside of the cg_main folder
   - Add an opening php tag (`<?php`) to the module and a new line right under it (i.e. hit return on your keyboard after the php tag)
   - DO NOT add a closing php tag (Including the closing tag may cause strange runtime issues on certain server setups.)
