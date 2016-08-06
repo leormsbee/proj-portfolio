@@ -21,7 +21,7 @@ This work should be completed on your local CG website.
 
 1- Make sure your new branch in your proj-cg repo is based off of the LATEST master.
   - `git fetch --all`
-  - `git checkout -b debugacademy/master`
+  - `git checkout -b <branch_name_for_this_assignment> debugacademy/master`
 
 ### Creating a custom module
 2- Create a module titled cg_main:
