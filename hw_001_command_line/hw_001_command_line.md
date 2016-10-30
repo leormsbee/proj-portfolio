@@ -1,6 +1,11 @@
 # Assignment 1: Intro to the Command Line
 In this assignment we will learn to use common commands on the command line. You will be using many of these commands daily as a developer.
 
+## To BEGIN this homework assignment:
+Save this file to your computer by right-clicking (and choosing 'save as') for this link here:  
+https://github.com/debugacademy/da-assignments/raw/master/hw_001_command_line/hw_001_command_line.md  
+You will answer questions by editing the downloaded homework assignment file directly. I recommend moving the file to your debugacademy folder on your machine's Desktop.  
+
 ## To submit this homework assignment, simply email  ( tasks@debugacademy.com ) this file with the answers filled in. After each task, there will be space to paste your answer.
 **You can use lessons provided by the class as well as google to answer the questions.**
 
