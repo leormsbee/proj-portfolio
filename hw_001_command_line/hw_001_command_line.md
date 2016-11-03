@@ -62,7 +62,7 @@ For example, this is what the last 4 lines of my command line look like:
 - `documents`
 - `Alis-MBP:assignment_1 Ali$` 
 
-7 . As mentioned in lesson one, you can add flags to the ```ls``` command. These command line flags allow you to specify more options. Let us get some practice using the ```-la``` flag, which will output a long listing format of all the files and directories inside our current directory.
+7b . As mentioned in lesson one, you can add flags to the ```ls``` command. These command line flags allow you to specify more options. Let us get some practice using the ```-la``` flag, which will output a long listing format of all the files and directories inside our current directory.
 -Make sure that you are in the assignment_1 directory. Inside the command line, type ```ls -lah```.
 **Paste the last 6 lines from your command line/prompt below.** Answer:
 
