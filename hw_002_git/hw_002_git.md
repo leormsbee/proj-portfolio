@@ -1,6 +1,10 @@
 # Intro to Git
 In this assignment, we will learn git by using it.
 
+## Before starting
+Visit the following URL, and complete the assignment there:
+- https://github.com/debugacademy/debugacademy-git/blob/master/git_assignment.md
+
 ## Answering questions
 In this assignment, simply edit the homework file itself to answer the questions on it. Your answers will be submitted as pull requests on github.
 
