@@ -35,7 +35,7 @@ Upon completing a question, commit your changes to this file.
 Protip: After editing this file, you can run ```git status``` to see what files were changed and ```git diff [file_name]``` to see what exactly was changed in the file.
 
 ### Question 1
-- In your Terminal/Git Bash, use ```git checkout -b [Branch_Name] master``` to create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, use ```git checkout -b [Branch_Name]``` to create a new branch using the naming convention explained above.
 
 Enter your name after this colon:
 
@@ -56,7 +56,7 @@ For example, these are the commands/steps I executed to complete question 1:
 You will generally repeat these steps for each question below, but you will adjust the branch names and commit messages accordingly.
 
 ### Question 2
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above. For example, I would run the following command ```git checkout -b git-001-2-aa master```.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above. For example, I would run the following command ```git checkout -b git-001-2-aa```.
 
 Briefly explain in your own words what it means to 'pull' in git:
 
@@ -66,7 +66,7 @@ Then:
 - In your Terminal/Git Bash, use git to commit this file along with a commit message.
 
 ### Question 3
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above.
 
 Briefly explain in your own words what it means to 'push' in git:
 
@@ -76,7 +76,7 @@ Then:
 - In your Terminal/Git Bash, use git to commit this file along with a commit message.
 
 ### Question 4
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above.
 
 Briefly explain in your own words what it means to 'rebase' in git:
 
@@ -86,7 +86,7 @@ Then:
 - In your Terminal/Git Bash, use git to commit this file along with a commit message.
 
 ### Question 5
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above.
 
 Briefly explain in your own words what it means to git 'checkout' a branch or commit:
 
@@ -96,7 +96,7 @@ Then:
 - In your Terminal/Git Bash, use git to commit this file along with a commit message.
 
 ### Question 6
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above.
 
 Use git log to list your most recent commit's ID. Type at least 5 characters from the commit ID here:
 
@@ -106,7 +106,7 @@ Then:
 - In your Terminal/Git Bash, use git to commit this file along with a commit message.
 
 ### Question 7
-- In your Terminal/Git Bash, create a new branch based off of the master branch using the naming convention explained above.
+- In your Terminal/Git Bash, create a new branch using the naming convention explained above.
 
 Use git log to list the 2 most recent commits *before any of your own commits*. Type at least 5 characters from the two commit IDs here:
 First commit ID:
