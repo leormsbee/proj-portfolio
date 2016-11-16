@@ -41,7 +41,7 @@ Open the continuousgood.jpg file. It is an image of the homepage design for the 
 Header
 ----------
 Continuous Good logo on left
-- image for logo can be found at images/header.jpg
+- The image for the logo can be found at images/header.jpg
 
 Menu to the right
 - The links' text color should be: #40a2c9
@@ -115,6 +115,7 @@ Background Image: images/hands-bg.jpg
 Section 5
 ----------
 Testimonials
+Portrait image: person.png
 
 ----------
 Section 6
