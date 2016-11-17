@@ -141,7 +141,7 @@ Background Image: images/section-2-top-squiggle-border.jpg
 Up until this point, you should have one branch of work (question 2).
 
 ### Step 1
-Push the branch to your fork of the da-assignments repository (e.g. git push <remote-name> csscg-004-2-mk).
+Push the branch to your fork of the da-assignments repository (e.g. git push `<remote-name>` css-cg-004-2-aa).
 
 ### Step 2
 Create a pull request for the branch.
