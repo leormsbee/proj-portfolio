@@ -1,5 +1,5 @@
 # Image to HTML and CSS
-In this assignment, we will continue our work on coding the design for Continuous Good. In hw #3, each student submitted an HTML-only version of the design. We will now begin coding the CSS to accompany the HTML. To ensure we all are starting from the same point, one hw3 submission was selected and can be found in the hw_004_css folder at continuousgood/homepage.html.
+In this assignment, we will continue our work on coding the design for Continuous Good. In hw #3, each student submitted an HTML-only version of the design. We will now begin coding the CSS to accompany the HTML. To ensure we all are starting from the same point, hw3 submissions were combined and a consolidated homepage.html can be found in the hw_004_css folder. Use this html file for this assignment.
 
 > Continuous Good is a web application that aims to solve the problem of wanting to give charitable donations to so many different causes, and not being able to decide which one(s) to donate to. The goal is to subscribe to causes and organizations, to set a monthly amount to donate, and for the website to handle the rest. Each month, you will receive an email informing you of how that month's donation will be helping people.
 
@@ -115,7 +115,7 @@ Background Image: images/hands-bg.jpg
 Section 5
 ----------
 Testimonials
-Portrait image: person.png
+Portrait image: images/person.png
 
 ----------
 Section 6
