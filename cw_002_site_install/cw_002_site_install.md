@@ -17,15 +17,15 @@ Your commits should always be clear, concise explanations of what is being commi
 ** - [Topic]-[Assignment Number]-[Your initials]**  
 
 *For example, for this assignment:*  
-Ashraf Abed would create a branch named: ```install-sites-002-aa```  
+Ashraf Abed would create a branch named: ```install-sites-cw-002-aa```  
 
 ### Download new site repos
 
-1- Clone the CG project repository from github  
-- Github repo: https://github.com/debugacademy/proj-cg
+1- Clone the theme portfolio project repository from github  
+- Github repo: https://github.com/debugacademy/proj-themes
 - Clone it into your sites/dev-1 folder
   - cd to your sites/dev-1 folder
-  - Then run: git clone https://github.com/debugacademy/proj-cg.git
+  - Then run: git clone https://github.com/debugacademy/proj-themes.git
 
 2- Clone the ARCS project repository from github  
 - Github repo: https://github.com/debugacademy/proj-arcs
@@ -35,7 +35,7 @@ Ashraf Abed would create a branch named: ```install-sites-002-aa```
 
 ### Create index.php
 - Open the folder debugacademy/sites/dev-1
-- Create a new file named ```index.php``` using sublimetext or notepad++
+- Create a new file named ```index.php``` using sublimetext.
 - Place the following code in the file, then save the file:
 ```
 <h1>Websites on this environment</h2>
@@ -57,22 +57,22 @@ foreach(glob($dir.'*', GLOB_ONLYDIR) as $folder){
 
 Afterwards, copy the file you just created (index.php) to each of your other environments - dev-1, dev-2, stage-1, stage-2, 
 
-### Install CG website using the GUI
+### Install the theme portfolio website using the GUI
 - Step 1: cd to your Vagrant box, and ensure it is still running: 
   - `vagrant up`
 - Step 2: SSH into your vagrant machine:
   - `vagrant ssh`
-- Step 3: Create MySQL database named `dev1_cg` in vagrant environment:
-  - `mysql -uroot -proot -e 'create database dev1_cg;'`
-    - You have created a database named 'dev1_cg', by using your MySQL username and password of 'root'.
+- Step 3: Create MySQL database named `dev1_themes` in vagrant environment:
+  - `mysql -uroot -proot -e 'create database dev1_themes;'`
+    - You have created a database named 'dev1_themes', by using your MySQL username and password of 'root'.
 - Step 4: Exit vagrant's command line: `exit`
-- Step 5: Open the folder sites/dev-1/proj-cg
+- Step 5: Open the folder sites/dev-1/proj-themes
 - Step 6: Within that folder, copy the file sites/default/default.settings.php to sites/default/settings.php
-- Step 7: Visit: dev-1.academyvm.dev/proj-cg/install.php
+- Step 7: Visit: dev-1.academyvm.dev/proj-themes/install.php
   - Follow the installation instructions, with the following settings:
   - Choose the *Standard* profile
   - When prompted for the database information:
-    - Database name: dev1_cg
+    - Database name: dev1_themes
     - Database username: root
     - Database password: root
 - Step 8: Continue then complete the installation
@@ -119,7 +119,7 @@ Paste it here:
 Save this file, then stage (git add) and commit your changes.  
 
 Then:  
-- `cd` to your proj-cg repository  
+- `cd` to your proj-themes repository  
 - `cd` to sites/default
 - Run `ls -la`
 - Copy the information printed in the terminal
