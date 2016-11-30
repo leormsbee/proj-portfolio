@@ -17,7 +17,7 @@ Your commits should always be clear, concise explanations of what is being commi
 ** - [Topic]-[Assignment Number]-[Your initials]**  
 
 *For example, for this assignment:*  
-Ashraf Abed would create a branch named: ```install-sites-cw-002-aa```  
+Ashraf Abed would create a branch named: ```cw-install-sites-002-aa```  
 
 ### Download new site repos
 
@@ -33,7 +33,7 @@ Ashraf Abed would create a branch named: ```install-sites-cw-002-aa```
   - cd to your sites/dev-1 folder
   - Then run: git clone https://github.com/debugacademy/proj-arcs.git
 
-### Create index.php
+### Create index.php for every environment
 - Open the folder debugacademy/sites/dev-1
 - Create a new file named ```index.php``` using sublimetext.
 - Place the following code in the file, then save the file:
@@ -55,7 +55,7 @@ foreach(glob($dir.'*', GLOB_ONLYDIR) as $folder){
 ?>
 ```
 
-Afterwards, copy the file you just created (index.php) to each of your other environments - dev-1, dev-2, stage-1, stage-2, 
+Afterwards, copy the file you just created (index.php) to each of your other environments - dev-2, stage-1, stage-2, 
 
 ### Install the theme portfolio website using the GUI
 - Step 1: cd to your Vagrant box, and ensure it is still running: 
@@ -80,20 +80,22 @@ Afterwards, copy the file you just created (index.php) to each of your other env
 ### Install ARCS website using Drush
 - Step 1: cd to your Vagrant box (academyvm), and ensure it is running:
   - `vagrant up`
-- Step 2: copy proj-arcs/sites/default/default.settings.php to proj-arcs/sites/default/settings.php
-- Step 3: copy proj-arcs/sites/default/default.settings.local.php to proj-arcs/sites/default/settings.local.php
-- Step 4: edit the new settings.local.php file
+- Step 2: cd to your Vagrant box (academyvm), and connect to your virtual machine's command line using the `vagrant ssh` command:
+  - `vagrant ssh`
+- Step 3: copy proj-arcs/sites/default/default.settings.php to proj-arcs/sites/default/settings.php
+  - `cd /var/www/dev-1/proj-arcs/sites/default`
+  - `cp default.settings.local.php settings.local.php`
+- Step 4: copy proj-arcs/sites/default/default.settings.local.php to proj-arcs/sites/default/settings.local.php
+  - `cp default.settings.php settings.php`
+- Step 5: edit the new settings.local.php file using sublimetext
   - Enter a name for your database
     - Database names should only contain lowercase letters, numbers, and underscores
-    - For example: ```dev2_arcs``` is a good database name
-- Step 5: cd to your Vagrant box (academyvm), and connect to your virtual machine's command line using the `vagrant ssh` command:
-  - `vagrant ssh`
-- Step 6: cd to: ```/var/www/dev-1/proj-arcs```
-- Step 7: Run: ```drush site-install -y```
-- Step 8: In your browser, visit: dev-2.academyvm.dev , then click 'proj-arcs'
-- Step 9: Your Drupal website should be set up!
-Back to the command line using vagrant - ARCS-Website specific instruction:
-- Step 10: Run: ```drush site-install -y```
+    - For example: ```dev1_arcs``` is a good database name
+  - Fill in the site's URL for the `$base_url` variable. 
+    - `$base_url = 'http://dev-1.academyvm.dev/proj-arcs';`
+- Step 6: Run: ```drush site-install -y```
+- Step 7: In your browser, visit: dev-1.academyvm.dev , then click 'proj-arcs'
+- Step 8: Your Drupal website should be set up!
 
 ### Submit your assignment
 You'll be submitting the following:  
