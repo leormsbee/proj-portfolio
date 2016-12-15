@@ -1,4 +1,4 @@
-# Homework - Creating a View.
+# Classwork - Creating a View.
 In this classwork assignment, we will use Drupal to create a View that will contain a list of users. We will then place the view on a page using the panels module.
 
 ## Answering questions
@@ -40,7 +40,10 @@ Task 4 - Create a new view by going to Structure » Views » Add new view.
    - LinkedIn URL
 
  - Expand the "Advanced" link on the right side and click to Add a relationship. Select the Entity Reference: Referencing entity relationship. 
- - Add a contextual filter and search for the field name you gave to the "Link to the user that created the theme".  
+ - Add a contextual filter and search for and select 'Content: Nid'.  
+   - For Content: Nid's settings, under *WHEN THE FILTER VALUE IS NOT AVAILABLE*, choose `Display contents of "No results found"`
+   - Apply/Save the filter
+ - Enable the module Views Content Panes (`views_content`).
  - Under "Displays", click the + Add button and add a content pane and save the view. The view should now have a display of "Content Pane". 
  - **Save the view**.
 
