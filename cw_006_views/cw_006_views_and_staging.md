@@ -20,15 +20,17 @@ NOTE: You will need to make sure the CMS Compatibility Taxonomy has a few terms 
 
 **You might have already downloaded some of the modules in the following tasks. If so, simply move on to the next step.**
 
-Task 2 - Use drush to download and enable the Views and Ctools modules (https://www.drupal.org/project/views) and (https://www.drupal.org/project/ctools).
-This can be done by using the command line to navigate to your proj-themes repository and running ```drush en -y views ctools```. As always after downloading modules, git add and commit them in their own commits. You will also need to enable the Views UI and Views content panes modules (if you used drush, these two module were automatically downloaded with Views and Ctools). You can verify that all the necessary modules are enabled by visiting the modules section of your drupal site. 
+Task 2 - Use drush to download and enable the Views and Ctools modules (https://www.drupal.org/project/views) and (https://www.drupal.org/project/ctools).  
+This can be done by using the command line to navigate to your proj-themes repository and running ```drush en views ctools -y```. As always after downloading modules, git add and commit them in their own commits. You will also need to enable the Views UI (views_ui) and Views content panes (views_content) modules. These two module are included as part of the Views and Ctools modules. You can verify that all the necessary modules are enabled by visiting the modules section of your drupal site. 
 
 Task 3 - Create a new view by going to Structure » Views » Add new view. 
  - The view name should be "Featured Themes" 
- - Have it show content of the "Theme" content type
+ - Next to **Show**, select *Content*.
+   - Change type of content shown from all to *Theme*
  - Check the "Create a page" checkbox, give it an appropriate title and path, and have it display 3 items.
- - On the next page under Format, change it to show Fields instead of content
- - You will then need to add the following fields to the view:
+ - Press *Continue & Edit*
+ - On the next page under Format, change it to **Show:** *Fields* instead of content
+ - Under **Fields**, click the + Add button. You will then need to add the following fields to the view:
    - Title
    - Desktop image
    - CMS Compatiblity
@@ -36,9 +38,10 @@ Task 3 - Create a new view by going to Structure » Views » Add new view.
  - Under "Displays", click the + Add button and add a content pane and save the view The view should now have two displays, "Page" and "Content Pane"
  
 Task 4 - We will now use the panels module to place this view on the homepage.
- - Use drush to download and enable the panels module
- - Visit the modules section of the site and enable the "Panel nodes" and the "Page manager" modules
- - Navigate to Structure » Panels, and create a new panel page 
+ - Use drush to download and enable the "panels" module
+ - Enable the "Page manager" (page_manager) module
+ - Visit Structure » Pages
+ - Create a new panel page 
  - We will now create the homepage panel page. This panel page will allow us to place different drupal components on the homepage, such as blocks, views, custom text, etc.
  - Give this new panel page the title of homepage and check the box that says "Make this your site home page."
  - Give it a path of /index
