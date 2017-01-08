@@ -27,7 +27,7 @@ For example: Ashraf Abed would create a branch with the following name for quest
 
 2 - Use ```git add -p``` to specify which portions of files to commit.
   - Create a new branch based off of the develop branch for this question, using the branch naming convention listed above.
-  - cd into proj-themes/sites/all/themes/css
+  - cd into proj-themes/sites/all/themes/athemes_theme/css
   - Open the file in your favorite text editor, such as sublime text.
   - Add temporary code to the top of the file. After that, add temporary code to the very bottom of the file. Save the styles.css file.
   - Run ```git status``` to see which files were edited
