@@ -1,4 +1,4 @@
-# Classwork - Environment Setup.
+# Classwork - Initial Environment Setup.
 In this assignment, we will set up our development environment.
 **Note: You cannot do this assignment without downloading the required software sent in the email prior to the first day of class.**
 
@@ -35,8 +35,9 @@ In this assignment, we will set up our development environment.
     - ```192.170.88.16  pimpmylog.academyvm.dev```  
     - ```192.170.88.16  dashboard.academyvm.dev```  
        
-This file is in different locations depending on your Operating Systems. Instructions for editing your hosts file can be found at https://support.rackspace.com/how-to/modify-your-hosts-file/.
-- For Mac users: Scroll down to the section titled "Mac OS X 10.6 through 10.11".
+This file is in different locations depending on your Operating Systems. Instructions for editing your hosts file can be found at https://support.rackspace.com/how-to/modify-your-hosts-file/ .
+- For Mac users: Scroll down to the section titled "Mac OS X 10.6 through 10.11". 
+- For Linux users: Scroll down to the section titled "Linux".
 - For Windows users: Scroll down to the section titled "Windows". 
 **Note for Windows users only: Regarding step 4, make sure the browser window allows "All files" and not just "Text Documents (*.txt)" files to be opened. This will allow you to see the hosts file. Be sure to save the file after making changes.**
 
