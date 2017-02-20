@@ -2,3 +2,4 @@
 *.swp
 ignored-files/*
 backups/*
+internal-*/*
