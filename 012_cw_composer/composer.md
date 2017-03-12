@@ -49,7 +49,7 @@ Task 6 - Add a new module using composer
 - SSH into vagrant (cd into academyvm, run vagrant ssh)
 - cd into your website: `cd /var/www/dev-1/proj-me`
 - Download an additional module (package) using the composer require command:
-  - composer require admin_toolbar:^1
+  - composer require drupal/admin_toolbar:^1
 - Git add and commit both the composer.json and composer.lock files
 
 Task 7 - Enable the new module
