@@ -52,7 +52,7 @@ Configuration export and import is great for exporting all of your site's config
 
 - Inside of vagrant, cd into /var/www/dev-1/proj-me/.
 - Download the features module using composer. Run ```composer require drupal/features``` to download the features module.
-- git add and commit your composer.json file in one commit, then git add and commit your composer.json file in another commit. Be sure these files are in separate commits - this is always done after downloading a module using composer. Your commit messages should say something descriptive along the lines of "Downloaded the features module - composer.json" and "Downloaded the features module - composer.lock".
+- git add and commit your composer.json file in one commit, then git add and commit your composer.lock file in another commit. Be sure these files are in separate commits - this is always done after downloading a module using composer. Your commit messages should say something descriptive along the lines of "Downloaded the features module - composer.json" and "Downloaded the features module - composer.lock".
 - Inside of vagrant, cd into /var/www/dev-1/proj-me/web and run the command ```drush en features```. This is a handy drush command that will enable the features module as well as any dependencies that came with it.
 - Navigate to Configuration -> Development -> Features -> +Create new feature
 - Give the feature the name of "Portfolio Core".
