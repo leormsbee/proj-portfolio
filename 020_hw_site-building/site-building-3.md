@@ -48,7 +48,7 @@ Click on "+ Add field" to add the "Reference Image" field:
 ### Task 2 - Create 3 pieces of content!
 - Navigate to Content » +Add Content » Reference
 - Fill in the title
-- Fill in a name for the Reference Author
+- Fill in a name for the "Author" field
 - Fill in a name for the Organization field
 - Fill in a sentence or two for the Reference Body. 
 - Add any image. Add a one word description for the "Alternative text" field.
@@ -64,10 +64,10 @@ Click on "+ Add field" to add the "Reference Image" field:
 - On the View configuration page and under "FORMAT", click on "Content" and select "Fields" instead of content. Click "Apply" until you get back to the configuration page.
 - We have now successfully set up a view where we can add fields of the "Reference" content type. Let us begin adding fields!
 - The "Content: Title" field is automatically added by the view. This field will show the "Title" of the content type that you specified earlier in this task.
-- Under the "FIELDS" section of the view, click on Add to add a field. Add the "Reference Author" field to the view.
+- Under the "FIELDS" section of the view, click on Add to add a field. Add the "Content: Title" field to the view.
 - Add the "Organization" field to the view.
 - Add the "Reference Image" field to the view. Click on "Add" and search for "Reference Image". Select the field and click on "Add and configure fields". Use the "Large" Image style and click on "Apply".
-- Save the view and navigate to http://dev-1.academyvm.dev/proj-me/web/references to see your view. If you did it correctly, you should see some of the references that you created. This includes their titles, author, organization, and picture. You have successfully created a page that lists content using the views module!
+- Save the view and navigate to http://dev-1.academyvm.dev/proj-me/web/references to see your view. If you did it correctly, you should see some of the references that you created. This includes their author, organization, and picture. You have successfully created a page that lists content using the views module!
 
 ### Task 4 - Export your website's configuration
 - You should already have a folder in your proj-me directory called "config". As mentioned in previous assignments, this is where we will place all of our configuration exports. 
