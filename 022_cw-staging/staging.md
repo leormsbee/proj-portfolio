@@ -13,6 +13,7 @@ Before beginning, you must cd into debugacademy/academyvm and run ```vagrant up`
 Your commits should always be clear, concise explanations of what is being committed. They should be granular and easy to review. 
 
 ### Task 1 - Create a staging website in stage-1 (if you have not already done so)
+**If you had problems running composer install (mostly Windows users), do not follow these steps. Contact the learning assistant instead.**
 1. cd into academyvm, run `vagrant ssh`
 2. `cd` into /var/www/dev-1/proj-me`
 3. Run `git remote -v`. Copy only the URL to your fork (the one with your github username in it)
