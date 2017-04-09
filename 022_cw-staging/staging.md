@@ -25,8 +25,8 @@ Your commits should always be clear, concise explanations of what is being commi
 
 ### Task 2 - Give your staging site the same UUID as your dev site
 - In order to share configuration between two environments/sites, drupal requires those two environments/sites to have the same UUID (Unique ID). Currently, your dev-1/proj-me site has a different unique ID than your stage-1/proj-me site. Let us make them both have the same UUID.
-  - Using your terminal/gitbash, vagrant ssh, then cd into `/var/www/dev-1/proj-me` and run the following command: ```drush cget system.site uuid```. Copy the ID that is returned
-  - Next, cd into your staging website `/var/www/stage-1/proj-me` and run the following command: ```drush cset system.site uuid ID-THAT-YOU-JUST-COPIED```
+  - Using your terminal/gitbash, vagrant ssh, then cd into `/var/www/dev-1/proj-me/web` and run the following command: ```drush cget system.site uuid```. Copy the ID that is returned
+  - Next, cd into your staging website `/var/www/stage-1/proj-me/web` and run the following command: ```drush cset system.site uuid ID-THAT-YOU-JUST-COPIED```
 Now your dev and staging sites have the same Unique Site ID! Now they are able to use the same configuration as each other.
 
 ### Task 3 - Create a branch for the work we are staging
