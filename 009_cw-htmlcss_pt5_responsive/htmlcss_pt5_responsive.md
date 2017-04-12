@@ -13,10 +13,14 @@ For this assignment, you will be committing changes to:
 Your commits should always be clear, concise explanations of what is being committed. They should be granular and easy to review.
 
 ## Tasks
-Create a branch based off of **the following TAG**: `drupal-20170305-htmlcsspt5` master branch, using the following convention:
+Before starting any assignment, you should checkout the master branch and then update it by running ```git pull [remote] master```. The remote's name should be the remote that points to https://github.com/debugacademy/da-assignments.git. For this assignment, we will be creating a branch based off of master and then merging in a tag.
+- Run ```git fetch --tags``` to download all the tags
+- Create a branch based off of master branch, using the following convention:
 ** - [Topic]-[Assignment Number]-[Your initials]**  
 
-For example, Ashraf Abed would run the following command to create a branch based off the tag: ```git checkout -b responsive-cw-9-aa drupal-20170305-htmlcsspt5```.  
+For example, Ashraf Abed would run the following command to create the branch: ```git checkout -b responsive-cw-9-aa master```.  
+- Merge in **the following TAG**: `drupal-20170305-htmlcsspt5`. You would do this by running ```git merge drupal-20170305-htmlcsspt5```.
+- To exit the merge commit screen, click on ```ESC``` and then type ```:wq``` then click on Enter.
 
 Upon completing a section, **save the file, git add, and git commit your changes.**
 
