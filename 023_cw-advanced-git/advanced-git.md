@@ -81,7 +81,7 @@ For example: Ashraf Abed would create a branch with the following name: ```cw-gi
 
 7 - Use ```git branch -u [remote/branch]``` to 'track' a remote branch
   - Checkout your question 4 branch
-  - To easily compare your question 4 branch to the remote develop branch, run ```git branch -u origin/develop```
+  - To easily compare your question 4 branch to the remote master branch, run ```git branch -u origin/master```
     - Replace 'origin' with your alias for the debug academy repository.
   - Now, to see if your branch is ahead/behind, simply run: `git fetch --all`, then `git status` .
   - A message will be printed which says whether your branch is ahead of or behind the branch you are tracking.
@@ -101,13 +101,13 @@ For example: Ashraf Abed would create a branch with the following name: ```cw-gi
 
 9 - Use ```git reset [remote/branch or commit id] --hard``` to delete your work and match a branch or commit id
   - Stay on your branch from question 8. Run git status to confirm you have uncommitted work.
-  - Let us say that we want to throw away our work in progress, and make our branch match the develop branch exactly. 
+  - Let us say that we want to throw away our work in progress, and make our branch match the master branch exactly. 
   - Run ```git reset [remote/master] --hard```
   - This will throw away (permanently) all work on our current branch, and make our current branch match the remote/master branch exactly.
   - Run git log to confirm that your branch now matches the master branch exactly.
   - Paste the output of your log below this line:
 
-  - This command is especially useful to remove any work we committed directly to our develop or master branches. It ensures that our branch is fully corrected.
+  - This command is especially useful to remove any work we committed directly to or master branches. It ensures that our branch is fully corrected.
 
 ## Submitting your assignment
 ### Step 1
