@@ -11,7 +11,7 @@ For this assignment, you will be committing changes to:
 Your commits should always be clear, concise explanations of what is being committed. They should be granular and easy to review.
 
 ## Questions
-**Create a branch based off of the develop branch using the following convention:**  
+**Create a branch based off of the master branch using the following convention:**  
 ** -[Topic]-[Assignment Number]-[Your initials]**
 
 *For example, for this assignment:*  
