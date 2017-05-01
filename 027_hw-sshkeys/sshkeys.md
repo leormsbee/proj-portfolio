@@ -15,7 +15,7 @@ Your commits should always be clear, concise explanations of what is being commi
 ** -[Topic]-[Assignment Number]-[Your initials]**
 
 *For example, for this assignment:*  
-Ashraf Abed would create a branch named: ```cw-ssh-027-aa```  
+Ashraf Abed would create a branch named: ```hw-ssh-027-aa```  
 
 This work should be completed in your da-assignments folder. The instructions are different for Windows and Mac users.
 
@@ -68,7 +68,7 @@ Now run: `ssh-add ~/.ssh/id_rsa`
 
 ### Windows and Mac users
 Copy *only* the **public** (ends in .pub) key into this assignment's folder with this command:
-- `cp .ssh/id_rsa.pub ~/Desktop/debugacademy/sites/dev-1/da-assignments/027_cw-sshkeys/`
+- `cp .ssh/id_rsa.pub ~/Desktop/debugacademy/sites/dev-1/da-assignments/027_hw-sshkeys/`
 
 ### Step 1
 Push the branch you created for this assignment to your fork of the da-assignments repository (e.g. git push [remote-name] [branch name]).
