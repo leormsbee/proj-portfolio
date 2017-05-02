@@ -69,6 +69,7 @@ Now run: `ssh-add ~/.ssh/id_rsa`
 ### Windows and Mac users
 Copy *only* the **public** (ends in .pub) key into this assignment's folder with this command:
 - `cp .ssh/id_rsa.pub ~/Desktop/debugacademy/sites/dev-1/da-assignments/027_hw-sshkeys/`
+- Git add and commit the .pub file to this branch
 
 ### Step 1
 Push the branch you created for this assignment to your fork of the da-assignments repository (e.g. git push [remote-name] [branch name]).
