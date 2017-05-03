@@ -1,3 +1,4 @@
+**SKIP THIS ASSIGNMENT**
 # Create a subtheme for the portfolio website
 In this assignment, we will create a Drupal theme for our portfolio website.
 
