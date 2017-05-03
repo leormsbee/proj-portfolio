@@ -64,10 +64,14 @@ body {
   - Outside of vagrant, commit all .scss and .css files that were modified. You can check this by running ```git status```.
 
 ### Task 5 - Refer to the design and begin theming!
-1- Your homepage probably has blocks all over the place. This is normal when activating a new theme. Navigate to Structure » Block Layout and you can disable or remove the blocks you do not want displayed.  
+1- Your homepage probably has blocks all over the place. This is normal when activating a new theme. Navigate to Structure » Block Layout and you can disable or remove the blocks you do not want displayed.
+
 2 - To Place your name on the top section of the website, place the "Site branding" block at the top of the Navigation region. To change this text, navigate to Configuration » Basic site settings and change the Site name to say your name. For the Site Slogan, add the following text: Digital Development & design that is built to last.
+
 3 - Add the Portfolio, Blog, and Contact menu items by navigating to Structure » Menus and adding links to the "Main navigation". The contact menu item should link to your contact me page. The Portfolio menu item should link to your portfolio view that you created in a previous assignment. Lastly, the Blog menu item should link to your blog view that you created a while ago. **Note: You can point these links to the homepage for now and correct them later if you are unsure of the URLs.**
+
 4 - Use the google inspector tool and Sass to align the menu items like they are aligned in the design. Remember to compile your sass when done by running ```sass --watch scss/style.scss:css/style.css``` from inside vagrant and within your custom theme's folder.
+
 5 - Let us get rid of the logo that comes with Bootstrap. Navigate to Appearance » and click on settings next to your custom theme. Click on the Logo image tab at the bottom and uncheck the "Use the logo supplied by the theme" option. Remember to save the configuration.
 ## Submitting your assignment
 
