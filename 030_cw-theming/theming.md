@@ -30,15 +30,15 @@ Create a new develop branch based off of Debug Academy's:
 - `git fetch debugacademy`  
 - `git checkout -b develop debugacademy/develop`  
 
-SSH back into vagrant and cd into your proj-me folder.
-Download any modules/themes that are on develop but not on your site: `composer install`
-Still in vagrant, `cd` into the proj-me/web folder: `cd web`
-Re-install your site: `drush site-install -y`
-Set the same unique site ID as is used in the develop branch's config:
-`drush cset system.site uuid 0003034d-1229-4224-8de0-7deb6a4c2f39`
-To get around a bug in Drupal core, run the following:
-`drush ev '\Drupal::entityManager()->getStorage("shortcut_set")->load("default")->delete();';`
-Import your new site configuration: `drush config-import`
+SSH back into vagrant and cd into your proj-me folder.  
+Download any modules/themes that are on develop but not on your site: `composer install`  
+Still in vagrant, `cd` into the proj-me/web folder: `cd web`  
+Re-install your site: `drush site-install -y`  
+Set the same unique site ID as is used in the develop branch's config:  
+`drush cset system.site uuid 0003034d-1229-4224-8de0-7deb6a4c2f39`  
+To get around a bug in Drupal core, run the following:  
+`drush ev '\Drupal::entityManager()->getStorage("shortcut_set")->load("default")->delete();';`  
+Import your new site configuration: `drush config-import`  
 
 You should now have the same exact site set up as your entire class. Create a new branch for this assignment!
 
