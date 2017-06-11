@@ -5,6 +5,7 @@ In this assignment, we will set up our development environment.
 1 - Using terminal/gitbash, create a folder named `debugacademy` on your machine's desktop. This can be done by navigating to your desktop, then using the mkdir command:
 - `cd ~/Desktop`
 - `mkdir debugacademy`
+- `cd debugacademy`
 
 2 - Using terminal/gitbash, cd into your debugacademy directory on your laptop and clone the drupal-vm repository from github, storing it in a folder named academyvm.
  - run ```git clone https://github.com/debugacademy/drupal-vm.git academyvm``` 
