@@ -67,7 +67,7 @@ Git is great for keeping the history of all edits on files. Let's try it out by 
 Open this file from within your da-assignments folder using the Sublime Text 3 text editor program.  
 
 - Fill in your names after this colon: 
-  - [RIGHT HERE]
+  - [BRANDT]
 
 You're not done quite yet. Changes saved to the git history must be deliberate; git does not save every edit you do to the history automatically. Imagine how long the list would be if it did!  
 
