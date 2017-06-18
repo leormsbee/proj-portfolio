@@ -68,10 +68,14 @@ Open this file from within your da-assignments folder using the Sublime Text 3 t
 
 - Fill in your names after this colon: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Leila Zaazhoa
 =======
   - Sajid
 >>>>>>> JaberSE09/git-003-sj
+=======
+  - Ashraf Abed
+>>>>>>> ashraf/git-003-aa
 
 You're not done quite yet. Changes saved to the git history must be deliberate; git does not save every edit you do to the history automatically. Imagine how long the list would be if it did!  
 
