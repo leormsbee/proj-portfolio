@@ -71,7 +71,9 @@ Open this file from within your da-assignments folder using the Sublime Text 3 t
   - Wendy
   - Brandt
   - Divyesh
-  - Luanne Ormsbee
+  - Luanne
+  - Leila
+  - Sajid
 
 You're not done quite yet. Changes saved to the git history must be deliberate; git does not save every edit you do to the history automatically. Imagine how long the list would be if it did!  
 
