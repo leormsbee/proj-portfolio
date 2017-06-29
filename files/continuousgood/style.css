@@ -30,7 +30,7 @@ nav.main-nav {
 }
 
 nav.main-nav a {
-	font-color: #8dc9e1;	
+	color: #8dc9e1;	
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -39,5 +39,5 @@ nav.main-nav a {
 
 nav.main-nav a:hover {
 	background-color: #8dc9e1;
-	font-color: #ffffff;
+	color: #ffffff;
 }
