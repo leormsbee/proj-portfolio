@@ -9,3 +9,35 @@
   max-width: 1008px;
   margin: 0 auto;
 }
+
+ul.menu-siblings li {
+	display: inline-block;
+}
+
+h1.logo {
+	float: left;
+    padding: 60px 0 0 0;
+    overflow: hidden;
+    background-image: url("images/header.jpg");
+    background-repeat: no-repeat;
+    height: 0px !important;
+    width: 386px;
+}
+
+nav.main-nav {
+	float: right;
+	margin-top: 27px;
+}
+
+nav.main-nav a {
+	font-color: #8dc9e1;	
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px;  
+}
+
+nav.main-nav a:hover {
+	background-color: #8dc9e1;
+	font-color: #ffffff;
+}
