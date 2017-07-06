@@ -51,6 +51,7 @@ div#hero {
 	background-image: url("images/header-stockphoto.jpg");
 	background-repeat: no-repeat;
 	height: 671px;
+	width: 100%;
 }
 
 div#hero h2 {
