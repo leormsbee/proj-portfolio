@@ -13,6 +13,7 @@ header.content {
   width:100%;
   max-width: 1008px;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 
 ul.menu-siblings li {
@@ -55,7 +56,6 @@ div#hero {
 }
 
 div#hero h2 {
-	font-family: sans-serif;
 	text-transform: uppercase;
 	font-size:	2.5em;
 	text-align: center;
@@ -74,6 +74,93 @@ div#hero a {
     width: 379px;
 }
 
+/**set size & background for entire section **/
+div#one-action {	
+    height: 500px;
+	width: 100%;
+	/** background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
+    background-repeat: no-repeat;
+    background-position: 33% 50%, 50% 50%, 67% 50%;  **/
+    background-color: yellow; /** color should be #fffff; yellow is temp for contrast with lightgray **/
+    background-image: url("images/lightgray-bg.gif");
+	background-repeat: repeat-x;
+	background-position: bottom; 
+	/**  background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
+    background-repeat: no-repeat;
+    background-position: 33% 50%, 50% 50%, 67% 50%; **/
+	border: 2px solid red; 	/** border is temporary; helps me see the section **/ 
+} 
+	
+/** format header **/
+div#one-action h2 {
+	text-transform: uppercase;
+	font-size:	2.5em;
+	font-weight: lighter;
+	text-align: center;
+	color: gray;
+	padding-top: 60px;
+}
 
+/** format large buttons **/
+div#step-button {
+    width: 100%;
+    background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
+    background-repeat: no-repeat;
+    background-position: 65px 50%, 410px 50%, 745px 50%;
+    height: 192px;
+}
+/** add icons on top of large buttons **/
+div#step-icon {
+    width: 100%;
+    background-image: url("images/circle-icon-check.jpg"), url("images/circle-icon-cal.jpg"), url("images/circle-icon-heart.jpg");
+    background-repeat: no-repeat;
+    background-position: 125px 50%, 470px 50%, 810px 50%;
+    height: 192px;
+}
+/** add step #s & text boxes **/
+div#step-text {
+    width: 100%;
+    background-image: url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png");
+    background-repeat: no-repeat;
+    background-position: 25px 50%, 370px 50%, 710px 50%; 
+    height: 130px; 
+    border: 2px solid red; 	/** border is temporary; helps me see the section **/ 
+}
 
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
 
+/** ul.steps li {
+	display: inline-block;
+	padding: 50px 10px 25px 10px;
+	justify-content: space-between;
+} 
+
+li.step-1 {
+	padding: 50px 10px 25px 10px;
+}
+
+li.step-2 {
+	padding: 100px 10px 25px 10px;
+}
+
+li.step-3 {
+	padding: 150px 10px 25px 10px;
+}
+
+div#step-text a {
+	display: block;
+	margin: auto;	
+    padding: 25px 10px 25px 10px;
+    /** background-image: url("images/circle-smaller-section1.png");
+    background-repeat: no-repeat;
+    height: 0px !important;
+    width: 379px; **/
+}
+
+.step-number {
+	font-size: 2.0em;
+
+}	
