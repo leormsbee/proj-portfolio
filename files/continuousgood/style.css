@@ -8,4 +8,63 @@
   width:100%;
   max-width: 1008px;
   margin: 0 auto;
+  font-family: sans-serif;
 }
+
+/** was used for previous lesson; added to re-use class 'menu-siblings' **/
+ul.menu-siblings li {
+	display: inline-block;
+}
+
+/** set size & background for top of section **/
+#testimonials {	
+    height: 200px;
+	width: 100%;
+    background-color: yellow; /** color should be #fffff; yellow is temp for contrast with lightgray **/
+}
+
+/** set size for background image; this isn't working right **/
+#testimonials.bounding-box {
+	height: 390px;
+	padding-top: 200px;
+	background-image: url("images/lightgray-bg.gif");
+	background-repeat: repeat-x repeat-y;
+	background-size: contain; 	
+}
+
+/** style quote boxes **/
+li.quote {
+	height: 377px;
+	width: 290px;
+	border: solid 7px lightgray;
+	margin-top: 120px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+img {
+	padding-bottom: 50px; 
+	margin-top: -75px;
+	border: 
+}
+
+p.testimonial-text {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: grey;
+}
+
+p.testimonial-name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+p.testimonial-type {
+	text-transform: uppercase;
+	color: teal;
+}
+
+
+
