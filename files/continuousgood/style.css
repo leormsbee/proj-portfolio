@@ -18,25 +18,42 @@ ul.menu-siblings li {
 
 /** set size & background for top of section **/
 #testimonials {	
-    height: 200px;
+    height: 590px;
 	width: 100%;
-    background-color: yellow; /** color should be #fffff; yellow is temp for contrast with lightgray **/
+    background: linear-gradient(#ffffff 33%, #fafafa 33%);
 }
 
-/** set size for background image; this isn't working right **/
-#testimonials.bounding-box {
-	height: 390px;
+/** style pointers **/
+#left-pointer {
+	overflow: hidden;
+	height: 0px !important;
+	background-image: url("images/left-pointer.jpg"); 
+	background-repeat: no-repeat;
+	float: left;
 	padding-top: 200px;
-	background-image: url("images/lightgray-bg.gif");
-	background-repeat: repeat-x repeat-y;
-	background-size: contain; 	
+	padding-left: 50px;
+	margin: auto;
+
 }
+
+#right-pointer {
+	overflow: hidden;
+	height: 0px !important;
+	background-image: url("images/right-pointer.jpg"); 
+	background-repeat: no-repeat;
+	float: right;
+	padding-top: 200px;
+	padding-left: 50px;
+	margin: auto;
+}
+
 
 /** style quote boxes **/
 li.quote {
 	height: 377px;
 	width: 290px;
-	border: solid 7px lightgray;
+	border: solid 7px #e8edec;
+	background-color: #ffffff;
 	margin-top: 120px;
 	text-align: center;
 	margin-left: 5px;
@@ -59,11 +76,15 @@ p.testimonial-text {
 p.testimonial-name {
 	text-transform: uppercase;
 	font-weight: bold;
+	border-top: solid 2px #e8edec;
+	padding-top: 25px;
 }
 
 p.testimonial-type {
 	text-transform: uppercase;
-	color: teal;
+	color: #00efa9;
+	margin-top: -10px;
+	
 }
 
 
