@@ -20,31 +20,30 @@ ul.menu-siblings li {
 #testimonials {	
     height: 590px;
 	width: 100%;
-    background: linear-gradient(#ffffff 33%, #fafafa 33%);
+    /** background: linear-gradient(#ffffff 33%, #fafafa 33%); **/
+    background: #fafafa url("images/white-strip-bg.png") repeat-x top left;
 }
 
 /** style pointers **/
-#left-pointer {
+.arrow-pointers {
+	display: block;
 	overflow: hidden;
 	height: 0px !important;
-	background-image: url("images/left-pointer.jpg"); 
-	background-repeat: no-repeat;
-	float: left;
 	padding-top: 200px;
 	padding-left: 50px;
-	margin: auto;
+	margin-top: 270px;
+	background-repeat: no-repeat;
 
+}
+#left-pointer {
+	background-image: url("images/left-pointer.jpg"); 
+	float: left;
+	margin-left: 25px;
 }
 
 #right-pointer {
-	overflow: hidden;
-	height: 0px !important;
 	background-image: url("images/right-pointer.jpg"); 
-	background-repeat: no-repeat;
 	float: right;
-	padding-top: 200px;
-	padding-left: 50px;
-	margin: auto;
 }
 
 
@@ -60,7 +59,7 @@ li.quote {
 	margin-right: 5px;	
 }
 
-img {
+img.testimonial-image  {
 	padding-bottom: 50px; 
 	margin-top: -75px;
 	border: 
@@ -73,17 +72,19 @@ p.testimonial-text {
 	color: grey;
 }
 
-p.testimonial-name {
+span.testimonial-name {
+	display: block;
 	text-transform: uppercase;
 	font-weight: bold;
 	border-top: solid 2px #e8edec;
 	padding-top: 25px;
 }
 
-p.testimonial-type {
+span.testimonial-type {
+	display: block;
 	text-transform: uppercase;
 	color: #00efa9;
-	margin-top: -10px;
+	
 	
 }
 
