@@ -79,24 +79,16 @@ nav.main-nav a:hover {
 
 /** style one-action section **/
 /**set size & background for entire section **/
-div#one-action {	
+#one-action {	
     height: 500px;
 	width: 100%;
-	/** background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
-    background-repeat: no-repeat;
-    background-position: 33% 50%, 50% 50%, 67% 50%;  **/
-    background-color: yellow; /** color should be #fffff; yellow is temp for contrast with lightgray **/
-    background-image: url("images/lightgray-bg.gif");
+    background: #ffffff url("images/gray-strip-bg.png") repeat-x bottom left;
 	background-repeat: repeat-x;
-	background-position: bottom; 
-	/**  background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
-    background-repeat: no-repeat;
-    background-position: 33% 50%, 50% 50%, 67% 50%; **/
-	border: 2px solid red; 	/** border is temporary; helps me see the section **/ 
+	background-position: bottom;  
 } 
 	
 /** format header **/
-div#one-action h2 {
+#one-action h2 {
 	text-transform: uppercase;
 	font-size:	2.5em;
 	font-weight: lighter;
@@ -106,7 +98,7 @@ div#one-action h2 {
 }
 
 /** format large buttons **/
-div#step-button {
+#step-button {
     width: 100%;
     background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
     background-repeat: no-repeat;
@@ -114,7 +106,7 @@ div#step-button {
     height: 192px;
 }
 /** add icons on top of large buttons **/
-div#step-icon {
+#step-icon {
     width: 100%;
     background-image: url("images/circle-icon-check.jpg"), url("images/circle-icon-cal.jpg"), url("images/circle-icon-heart.jpg");
     background-repeat: no-repeat;
@@ -122,7 +114,7 @@ div#step-icon {
     height: 192px;
 }
 /** add step #s & text boxes **/
-div#step-text {
+#step-text {
     width: 100%;
     background-image: url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png");
     background-repeat: no-repeat;
@@ -169,7 +161,7 @@ div#step-text a {
 
 }	
 
-/** style welcome section **/
+/** style Welcome section **/
 #welcome {
 	height: 420px;
 	width: 100%;
@@ -202,9 +194,11 @@ p {
 	color: #67e4dd;
 }
 
-/** style testimonial section **/
+/** style "Step 1" section **/
 
-/** style testimonial section **/
+/** style "Step 2" section **/
+
+/** style Testimonial section **/
 /** set size & background for top of section **/
 #testimonials {	
     height: 590px;
@@ -275,4 +269,10 @@ span.testimonial-type {
 	
 	
 }
+
+/** style "Step 3" section **/
+
+/** style Newsletter section **/
+
+/** style Footer section **/
 
