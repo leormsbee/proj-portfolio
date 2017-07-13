@@ -1,132 +1,117 @@
 /** You can edit this entire document **/
-
 .wrapper {
   width: 100%;
-  max-width: 1454px;
-}
+  max-width: 1454px; }
 
 header.content {
-	height: 88px;
-}
+  height: 88px; }
 
 .content {
-  width:100%;
+  width: 100%;
   max-width: 1008px;
   margin: 0 auto;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 ul.menu-siblings li {
-	display: inline-block;
-}
+  display: inline-block; }
 
 /** style logo **/
 h1.logo {
-	float: left;
-    padding: 60px 0 0 0;
-    overflow: hidden;
-    background-image: url("images/header.jpg");
-    background-repeat: no-repeat;
-    height: 0px !important;
-    width: 386px;
-}
+  float: left;
+  padding: 60px 0 0 0;
+  overflow: hidden;
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  height: 0px !important;
+  width: 386px; }
 
 /** style main menu **/
 nav.main-nav {
-	float: right;
-	margin-top: 27px;
-}
+  float: right;
+  margin-top: 27px; }
 
 nav.main-nav a {
-	color: #8dc9e1;	
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 13px;  
-}
+  color: #8dc9e1;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px; }
 
 nav.main-nav a:hover {
-	background-color: #8dc9e1;
-	color: #ffffff;
-}
+  background-color: #8dc9e1;
+  color: #ffffff; }
 
 /** style hero section **/
 #hero {
-	background-image: url("images/header-stockphoto.jpg");
-	background-repeat: no-repeat;
-	height: 671px;
-	width: 100%;
-}
+  background-image: url("images/header-stockphoto.jpg");
+  background-repeat: no-repeat;
+  height: 671px;
+  width: 100%; }
 
 #hero h2 {
-	text-transform: uppercase;
-	font-size:	2.5em;
-	text-align: center;
-	color: #ffffff;
-	padding-top: 405px;
-}
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 405px; }
 
 #hero a {
-	display: block;
-	margin: auto;	
-    padding: 107px 0 0 0;
-    overflow: hidden;
-    background-image: url("images/button-givefwd.png");
-    background-repeat: no-repeat;
-    height: 0px !important;
-    width: 379px;
-}
+  display: block;
+  margin: auto;
+  padding: 107px 0 0 0;
+  overflow: hidden;
+  background-image: url("images/button-givefwd.png");
+  background-repeat: no-repeat;
+  height: 0px !important;
+  width: 379px; }
 
 /** style one-action section **/
 /**set size & background for entire section **/
-#one-action {	
-    height: 500px;
-	width: 100%;
-    background: #ffffff url("images/gray-strip-bg.png") repeat-x bottom left;
-	background-repeat: repeat-x;
-	background-position: bottom;  
-} 
-	
+#one-action {
+  height: 500px;
+  width: 100%;
+  background: #ffffff url("images/gray-strip-bg.png") repeat-x bottom left;
+  background-repeat: repeat-x;
+  background-position: bottom; }
+
 /** format header **/
 #one-action h2 {
-	text-transform: uppercase;
-	font-size:	2.5em;
-	font-weight: lighter;
-	text-align: center;
-	color: gray;
-	padding-top: 60px;
-}
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: gray;
+  padding-top: 60px; }
 
 /** format large buttons **/
 #step-button {
-    width: 100%;
-    background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
-    background-repeat: no-repeat;
-    background-position: 65px 50%, 410px 50%, 745px 50%;
-    height: 192px;
-}
+  width: 100%;
+  background-image: url("images/circle-section1.png"), url("images/circle-section1.png"), url("images/circle-section1.png");
+  background-repeat: no-repeat;
+  background-position: 65px 50%, 410px 50%, 745px 50%;
+  height: 192px; }
+
 /** add icons on top of large buttons **/
 #step-icon {
-    width: 100%;
-    background-image: url("images/circle-icon-check.jpg"), url("images/circle-icon-cal.jpg"), url("images/circle-icon-heart.jpg");
-    background-repeat: no-repeat;
-    background-position: 125px 50%, 470px 50%, 810px 50%;
-    height: 192px;
-}
+  width: 100%;
+  background-image: url("images/circle-icon-check.jpg"), url("images/circle-icon-cal.jpg"), url("images/circle-icon-heart.jpg");
+  background-repeat: no-repeat;
+  background-position: 125px 50%, 470px 50%, 810px 50%;
+  height: 192px; }
+
 /** add step #s & text boxes **/
 #step-text {
-    width: 100%;
-    background-image: url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png");
-    background-repeat: no-repeat;
-    background-position: 25px 50%, 370px 50%, 710px 50%; 
-    height: 130px; 
-    border: 2px solid red; 	/** border is temporary; helps me see the section **/ 
-}
+  width: 100%;
+  background-image: url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png"), url("images/circle-smaller-section1.png");
+  background-repeat: no-repeat;
+  background-position: 25px 50%, 370px 50%, 710px 50%;
+  height: 130px;
+  border: 2px solid red;
+  /** border is temporary; helps me see the section **/ }
 
 ul {
-	list-style-type: none;
-	display: inline-block;
-}
+  list-style-type: none;
+  display: inline-block; }
 
 /** ul.steps li {
 	display: inline-block;
@@ -153,126 +138,103 @@ div#step-text a {
     /** background-image: url("images/circle-smaller-section1.png");
     background-repeat: no-repeat;
     height: 0px !important;
-    width: 379px; **/
+    width: 379px; 
 }
-
+**/
 .step-number {
-	font-size: 2.0em;
-
-}	
+  font-size: 2.0em; }
 
 /** style Welcome section **/
 #welcome {
-	height: 420px;
-	width: 100%;
-	background: #00b2aa url("images/section-2-top-dotted-border.jpg") repeat-x;
-}
+  height: 420px;
+  width: 100%;
+  background: #00b2aa url("images/section-2-top-dotted-border.jpg") repeat-x; }
 
 #welcome h2 {
-	text-transform: uppercase;
-	font-size:	2.5em;
-	font-weight: lighter;
-	text-align: center;
-	color: #ffffff;
-	padding-top: 87px;
-}
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 87px; }
 
 #welcome h2 span#to {
-	color: #6defe9;
-}
+  color: #6defe9; }
 
 #welcome h2 span#continuous {
-	font-weight: bold;
-}
+  font-weight: bold; }
 
 p {
-	padding-top: 67px;
-	padding-left: 33px;
-	padding-right: 33px;
-	text-align: center;
-	line-height: 175%;
-	color: #67e4dd;
-}
+  padding-top: 67px;
+  padding-left: 33px;
+  padding-right: 33px;
+  text-align: center;
+  line-height: 175%;
+  color: #67e4dd; }
 
 /** style "Step 1" section **/
-
 /** style "Step 2" section **/
-
 /** style Testimonial section **/
 /** set size & background for top of section **/
-#testimonials {	
-    height: 590px;
-	width: 100%;
-    background: #fafafa url("images/white-strip-bg.png") repeat-x top left;
-}
+#testimonials {
+  height: 590px;
+  width: 100%;
+  background: #fafafa url("images/white-strip-bg.png") repeat-x top left; }
 
 /** style pointers **/
 .arrow-pointers {
-	display: block;
-	overflow: hidden;
-	height: 0px !important;
-	padding-top: 200px;
-	padding-left: 50px;
-	margin-top: 270px;
-	background-repeat: no-repeat;
+  display: block;
+  overflow: hidden;
+  height: 0px !important;
+  padding-top: 200px;
+  padding-left: 50px;
+  margin-top: 270px;
+  background-repeat: no-repeat; }
 
-}
 #left-pointer {
-	background-image: url("images/left-pointer.jpg"); 
-	float: left;
-	margin-left: 25px;
-}
+  background-image: url("images/left-pointer.jpg");
+  float: left;
+  margin-left: 25px; }
 
 #right-pointer {
-	background-image: url("images/right-pointer.jpg"); 
-	float: right;
-}
-
+  background-image: url("images/right-pointer.jpg");
+  float: right; }
 
 /** style quote boxes **/
 li.quote {
-	height: 377px;
-	width: 290px;
-	border: solid 7px #e8edec;
-	background-color: #ffffff;
-	margin-top: 120px;
-	text-align: center;
-	margin-left: 5px;
-	margin-right: 5px;	
-}
+  height: 377px;
+  width: 290px;
+  border: solid 7px #e8edec;
+  background-color: #ffffff;
+  margin-top: 120px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px; }
 
-img.testimonial-image  {
-	padding-bottom: 50px; 
-	margin-top: -75px;
-	border: 
-}
+img.testimonial-image {
+  padding-bottom: 50px;
+  margin-top: -75px; }
 
 p.testimonial-text {
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-left: 20px;
-	color: grey;
-}
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: grey; }
 
 span.testimonial-name {
-	display: block;
-	text-transform: uppercase;
-	font-weight: bold;
-	border-top: solid 2px #e8edec;
-	padding-top: 25px;
-}
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: solid 2px #e8edec;
+  padding-top: 25px; }
 
 span.testimonial-type {
-	display: block;
-	text-transform: uppercase;
-	color: #00efa9;
-	
-	
-}
+  display: block;
+  text-transform: uppercase;
+  color: #00efa9; }
 
 /** style "Step 3" section **/
-
 /** style Newsletter section **/
-
 /** style Footer section **/
 
+/*# sourceMappingURL=style.css.map */

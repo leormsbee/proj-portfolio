@@ -3,3 +3,5 @@
 ignored-files/*
 backups/*
 internal-*/*
+*.map*
+.sass-cache/
