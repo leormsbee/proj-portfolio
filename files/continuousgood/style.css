@@ -24,11 +24,20 @@ h1.logo {
   background-repeat: no-repeat;
   height: 0px !important;
   width: 386px; }
+  @media (max-width: 930px) {
+    h1.logo {
+      float: none;
+      margin: 0 auto; } }
 
 /** style main menu **/
 nav.main-nav {
   float: right;
   margin-top: 27px; }
+  @media (max-width: 930px) {
+    nav.main-nav {
+      float: none;
+      margin: 0 auto;
+      text-align: center; } }
 
 nav.main-nav a {
   color: #8dc9e1;
@@ -180,6 +189,13 @@ p {
   height: 590px;
   width: 100%;
   background: #fafafa url("images/white-strip-bg.png") repeat-x top left; }
+  @media (max-width: 1285px) {
+    #testimonials .content {
+      text-align: center; } }
+  @media (max-width: 1285px) {
+    #testimonials li {
+      display: block;
+      margin: 0 auto; } }
 
 /** style pointers **/
 .arrow-pointers {

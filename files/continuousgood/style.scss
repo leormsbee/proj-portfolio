@@ -1,5 +1,9 @@
 /** You can edit this entire document **/
 
+$breakpoint-lg: 1285px;
+$breakpoint-md: 930px;
+
+
 .wrapper {
   width: 100%;
   max-width: 1454px;
@@ -29,12 +33,21 @@ h1.logo {
     background-repeat: no-repeat;
     height: 0px !important;
     width: 386px;
+    @media (max-width: $breakpoint-md) {
+    	float: none;
+    	margin:0 auto;
+    }
 }
 
 /** style main menu **/
 nav.main-nav {
 	float: right;
 	margin-top: 27px;
+	@media (max-width: $breakpoint-md) {
+    	float: none;
+    	margin:0 auto;
+    	text-align: center;
+    }
 }
 
 nav.main-nav a {
@@ -204,7 +217,22 @@ p {
     height: 590px;
 	width: 100%;
     background: #fafafa url("images/white-strip-bg.png") repeat-x top left;
+
+    .content {
+		@media (max-width: $breakpoint-lg) {
+		text-align: center;
+		}
+    }
+
+	li {
+		@media (max-width: $breakpoint-lg) {
+		display: block;
+		margin: 0 auto;
+		
+		}
+	}
 }
+
 
 /** style pointers **/
 .arrow-pointers {
