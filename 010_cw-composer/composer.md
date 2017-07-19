@@ -70,6 +70,18 @@ Task 7 - Enable the new module
 - Move your mouse over the 'Structure' menu link. Notice there *is* a dropdown.
 - We've installed the module successfully!
 
+Task 8 - Create a brand new Drupal project using composer
+In Task 1, we cloned an existing project from github. This time, we will generate a new one from the drupal community's composer drupal project template.  
+
+- cd into /var/www/dev-1  
+- Run the command: `composer create-project drupal-composer/drupal-project:8.x-dev personal-project --stability dev --no-interaction`  
+- cd into the new folder `personal-project`
+- Run `ls -la` to confirm the presence of a file named composer.json  
+- Run `composer install` . It will automatically read the file composer.json and download all of the listed files.  
+  - Note: Windows users may experience lag and permissions issues  
+    - In case of permissions issues, we have a work-around you can use. Inform the instructor.  
+- Repeat tasks 4, 5, 6, and 7 in the new project's folder (i.e. replace proj-portfolio with personal-project in the instructions)  
+
 ## Submitting your assignment
 
 ### Step 1
