@@ -25,6 +25,10 @@ h4 {
 ul.menu-siblings li {
   display: inline-block; }
 
+.form {
+  height: 60px;
+  width: 295px; }
+
 /** style header **/
 header.content {
   height: 88px; }
@@ -285,8 +289,32 @@ ul li div.overlay p {
 
 /** style "Step 2" section **/
 #step-two {
-  height: 392px;
-  width: 100%; }
+  height: 397px;
+  width: 100%;
+  background: url("images/hands-bg.jpg") no-repeat top left;
+  text-align: center;
+  border: solid red 2px; }
+
+#step-two h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #ffffff;
+  padding: 35px;
+  border: solid red 2px;
+  margin: 0 auto; }
+
+#step-two p {
+  padding: 30px;
+  text-align: center;
+  line-height: 175%;
+  color: #eaedfc; }
+
+input {
+  border: solid red 2px;
+  font-size: 35px; }
+
+select {
+  border: solid red 2px; }
 
 /** style Testimonial section **/
 /** set size & background for top of section **/
