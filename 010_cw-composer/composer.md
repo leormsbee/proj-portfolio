@@ -3,7 +3,7 @@ In this assignment, we will learn about composer and install a Drupal 8 website.
 
 ## Answering Tasks
 For this assignment, you will be committing changes to:  
-- (new repository) debugacademy/sites/dev-1/proj-portfolio/  
+- (new repository) debugacademy/htdocs/dev-1/proj-portfolio/  
 
 Or the *equivalent* path on our virtualmachine:  
 - /var/www/dev-1/proj-portfolio  
@@ -17,14 +17,14 @@ Your commits should always be clear, concise explanations of what is being commi
 Task 1 - Clone our new project
 - Visit https://github.com/debugacademy/proj-portfolio
 - Click 'Clone or download', then copy the URL (should be `https://github.com/debugacademy/proj-portfolio.git`)
-- cd into our debugacademy/sites/dev-1 folder
+- cd into our debugacademy/htdocs/dev-1 folder
 - Clone the repository: `git clone [Paste git clone URL. should end in .git]`
 
 Task 2 - Fork our new project's repository  
 - Visit https://github.com/debugacademy/proj-portfolio  
 - Press 'Fork' in the upper right corner  
 - Click 'Clone or download', then copy the fork's URL  
-- cd into our recently cloned repository: `cd ~/Desktop/debugacademy/sites/dev-1/proj-portfolio`  
+- cd into our recently cloned repository: `cd ~/Desktop/debugacademy/htdocs/dev-1/proj-portfolio`  
 - Add your fork as a remote  
 - Create a new branch in our site project for this assignment, named composer-010-[your initials].  
 
