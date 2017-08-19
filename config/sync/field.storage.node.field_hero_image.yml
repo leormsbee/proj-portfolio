@@ -1,4 +1,4 @@
-uuid: f6e81fe4-a683-4341-aa1c-9680676d69f1
+uuid: 96b1e41f-817e-4c9f-9715-14e31004c45b
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,15 @@ dependencies:
     - file
     - image
     - node
-id: node.field_picture
-field_name: field_picture
+id: node.field_hero_image
+field_name: field_hero_image
 entity_type: node
 type: image
 settings:
   uri_scheme: public
   default_image:
     uuid: ''
-    alt: ''
+    alt: 'Hero image banner'
     title: ''
     width: null
     height: null

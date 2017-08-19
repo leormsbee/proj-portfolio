@@ -1,17 +1,17 @@
-uuid: 64ccae7d-28cb-4efa-b28d-2683eae9458d
+uuid: c601b7e4-d988-4e6d-9a60-2edfeb0fd04b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_picture
+    - field.storage.node.field_tablet_image
     - node.type.portfolio
   module:
     - image
-id: node.portfolio.field_picture
-field_name: field_picture
+id: node.portfolio.field_tablet_image
+field_name: field_tablet_image
 entity_type: node
 bundle: portfolio
-label: Picture
+label: 'Tablet Image'
 description: ''
 required: false
 translatable: false
@@ -22,7 +22,7 @@ settings:
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
-  min_resolution: ''
+  min_resolution: 460x300
   alt_field: true
   alt_field_required: true
   title_field: false
