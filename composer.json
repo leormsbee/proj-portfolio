@@ -27,6 +27,7 @@
         "drupal/core": "~8.0",
         "drupal/devel": "^1.0@RC",
         "drupal/features": "^3.5",
+        "drupal/panelizer": "^4.0",
         "drupal/social_media_links": "^2.5",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3"
