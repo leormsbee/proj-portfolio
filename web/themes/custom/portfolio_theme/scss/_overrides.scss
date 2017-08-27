@@ -94,7 +94,6 @@ p:last-child,
   }
 }
 
-
 .help-block, .control-group .help-inline {
   color: $gray-light;
   font-size: 12px;
@@ -113,6 +112,50 @@ body {
   float: right;
 }
 
+// Portfolio view.
+#block-views-block-portfolio-block-1 {
+  background-color: #f4f3f1;
+  text-transform: uppercase;
+  text-align: center;
+  .views-row {
+    height: 500px;
+    margin-bottom: 45px;
+  }
+  img {
+    max-height: 310px;
+    display: inline-block;
+  }
+  .portfolio-summary {
+    background-color: #96acbd;
+    color: #ffffff;
+    width: 90%;
+    margin-top: -70px;
+    z-index: 999;
+    position: absolute;
+    left: 5%;
+    height: 250px;
+    a {
+      color: #ffffff;
+    }
+  }
+  h2 {
+    color: #82aab9;
+    font-size: 9px;
+    margin-bottom: 17px;
+  }
+  .view-header {
+    color: #526572;
+    font-size: 13px;
+    margin-bottom: 54px;
+  }
 
+  .button a {
+    display: block;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 28px;
+  }
+    
 
+}
 
